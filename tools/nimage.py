@@ -62,12 +62,26 @@ def main(args):
         base = 'nodes-{0}'.format(os.path.basename(image).replace('-','_'))
         outimage = os.path.join(args.out_folder, base)
         print('Converting {0} -> {1} '.format(image, base))
-        subprocess.check_output(['convert',
-                                 '-resize',
-                                 '{0}x'.format(args.width),
-                                 image,
-                                 outimage
-                                 ])
+        p1 = subprocess.Popen(['convert',
+                               image,
+                               '-resize',
+                               '{0}x'.format(args.width),
+                               '-'
+                               ],
+                              stdout=subprocess.PIPE)
+        p2 = subprocess.Popen(['pngquant',
+                               '--strip',
+                               '--quality',
+                               '75-95',
+                               '--output',
+                               outimage,
+                               '-'
+                               ],
+                              stdin=p1.stdout
+                              )
+        p1.stdout.close()
+        p2.communicate()[0]
+
 
 # MAIN
 if __name__ == "__main__":
