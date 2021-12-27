@@ -10,11 +10,20 @@
 #
 # In Blender,
 #   Open Blender and start a geometry node session
-#   Shift-a to insert a node
+#   Shift-a to insert a one or more nodes
 #   Enlarge as big as you can
 #   Using Window/Save Screenshot(Editor), snap an image of the geometry
 #      editor view containing the node
 #   Save it to the default ~/Documents/screen.png
+#
+# In GIMP,
+#    Open screen.png
+#    Set view to 100%
+#    Rectangle-select portion containing the node
+#    Ctrl-C to select
+#    Shift-Ctrl-V to create a new image with the selection
+#    Shift-Ctrl-E to Export As ...
+#    Name output in lower case, spaces as underscores (_)
 #
 # In a separate terminal window,
 #   Use this utility from the top of the documentation tree,
@@ -25,56 +34,43 @@
 #
 
 import argparse
-import logging
 import os
 import os.path
-import sys
+import pathlib
 import subprocess
+import sys
 
 def subArgs():
     parser = argparse.ArgumentParser(description='nimage args parsing')
-    parser.add_argument('node',
-                        help='Name of node in the screenshot'
-                        )
-    parser.add_argument('--screenshot',
-                        default='~/Documents/screen.png',
-                        help='source folder of rst files')
+    parser.add_argument('--in-folder',
+                        default='~/Documents/etk',
+                        help='source folder of image files')
     parser.add_argument('--width',
                         default=300,
                         type=int,
                         help='width in pixels of output image')
-    parser.add_argument('--image-folder',
+    parser.add_argument('--out-folder',
                         default='./ref_manual/images',
-                        help='image location')
+                        help='output image location')
     args = parser.parse_args()
     return args
 
 
 def main(args):
-    fnm = 'nodes-{0}.png'.format(args.node)
-    screenshot = os.path.expanduser(args.screenshot)
-    if os.path.exists(screenshot):
-        outimage = os.path.join(args.image_folder, fnm)
-        stat = subprocess.check_output(['convert',
-                                        '-resize',
-                                        '{0}x'.format(args.width),
-                                        screenshot,
-                                        outimage
-                                        ])
-        if stat == 0:
-            logging.info('Image file created: %s' % outimage)
-    else:
-        logging.error('Missing file - %s' % screenshot)
+    imagepath = pathlib.Path(os.path.expanduser(args.in_folder))
+    for image in list(imagepath.glob('./*.png')):
+        base = 'nodes-{0}'.format(os.path.basename(image).replace('-','_'))
+        outimage = os.path.join(args.out_folder, base)
+        print('Converting {0} -> {1} '.format(image, base))
+        subprocess.check_output(['convert',
+                                 '-resize',
+                                 '{0}x'.format(args.width),
+                                 image,
+                                 outimage
+                                 ])
 
-
+# MAIN
 if __name__ == "__main__":
-    logger = logging.getLogger('nimage')
-    logging.basicConfig(encoding='utf-8',
-                        level=logging.DEBUG,
-                        format='%(levelname)s %(asctime)s - %(message)s',
-                        datefmt='%Y-%m-%d %I:%M:%S',
-                        )
     args = subArgs()
     main(args)
-
     sys.exit(0)
