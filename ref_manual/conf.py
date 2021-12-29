@@ -33,9 +33,8 @@ extensions = [
 
 # .. todo::     - adds a todo item
 # .. todolist:: - generates a list of todos
-todo_include_todos = False
-# todo_include_todos = False
-# todo_emit_warnings = False
+todo_include_todos = True
+# todo_emit_warnings = True
 # todo_link_only = False
 
 # If true, the ReST sources are included in the HTML build as _sources/name
@@ -95,8 +94,12 @@ if html_theme == "sphinx_rtd_theme":
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-rst_epilog = """
+rst_prolog = """
 .. |ETK_VERSION| replace:: %s
+""" % etk_version
+
+rst_epilog = """
+.. |ETK_ZIPFILE| replace:: ETK_core-%s.zip
 """ % etk_version
 
 #html_logo = "images/etk-logo.svg"

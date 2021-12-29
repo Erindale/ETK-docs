@@ -3,6 +3,10 @@
 
 # nimage --- node image processing.
 #
+# DEPENDS ON:
+#    imagemagick (convert)
+#    pngquant
+#
 # Simplify, as best possible, the process of creating node images for
 # the documentation. I've found no trivial way. This script is a
 # front-end to imagemagick's convert utility that will copy a snapped
@@ -56,19 +60,20 @@ def subArgs():
     return args
 
 
+# Images are processed by piping the output from an imagemagick resize
+# into the pngquant utility to compress the filesize.
 def main(args):
     imagepath = pathlib.Path(os.path.expanduser(args.in_folder))
     for image in list(imagepath.glob('./*.png')):
         base = 'nodes-{0}'.format(os.path.basename(image).replace('-','_'))
         outimage = os.path.join(args.out_folder, base)
         print('Converting {0} -> {1} '.format(image, base))
-        p1 = subprocess.Popen(['convert',
-                               image,
-                               '-resize',
-                               '{0}x'.format(args.width),
-                               '-'
-                               ],
-                              stdout=subprocess.PIPE)
+        convert = ['convert', image]
+        if args.width > 0:
+            convert.append('-resize')
+            convert.append('{0}x'.format(args.width))
+        convert.append('-')
+        p1 = subprocess.Popen(convert, stdout=subprocess.PIPE)
         p2 = subprocess.Popen(['pngquant',
                                '--strip',
                                '--quality',
