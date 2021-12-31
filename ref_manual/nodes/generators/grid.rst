@@ -55,13 +55,13 @@ Outputs
 |INTEGER_SINGLE| Size
     The total number of points generated.
 
-|FLOAT_FIELD_SINGLE| X Fac
+|FLOAT_FIELD| X Fac
     A 0-1 gradient across the points in the X axis.
 
-|FLOAT_FIELD_SINGLE| Y Fac
+|FLOAT_FIELD| Y Fac
     A 0-1 gradient across the points in the Y axis.
 
-|FLOAT_FIELD_SINGLE| Z Fac
+|FLOAT_FIELD| Z Fac
     A 0-1 gradient across the points in the Z axis.
 
 
