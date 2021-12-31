@@ -92,14 +92,28 @@ if html_theme == "sphinx_rtd_theme":
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 rst_prolog = """
 .. |ETK_VERSION| replace:: %s
+.. |GEOMETRY| image:: /images/nodes-socket_geometry.svg
+.. |BOOLEAN_FIELD| image:: /images/nodes-socket_boolean_field.svg
+.. |BOOLEAN_FIELD_SINGLE| image:: /images/nodes-socket_boolean_field_single.svg
+.. |BOOLEAN_SINGLE| image:: /images/nodes-socket_boolean_single.svg
+.. |FLOAT_FIELD| image:: /images/nodes-socket_float_field.svg
+.. |FLOAT_FIELD_SINGLE| image:: /images/nodes-socket_float_field_single.svg
+.. |FLOAT_SINGLE| image:: /images/nodes-socket_float_single.svg
+.. |INTEGER_FIELD| image:: /images/nodes-socket_integer_field.svg
+.. |INTEGER_FIELD_SINGLE| image:: /images/nodes-socket_integer_field_single.svg
+.. |INTEGER_SINGLE| image:: /images/nodes-socket_integer_single.svg
+.. |VECTOR_FIELD| image:: /images/nodes-socket_vector_field.svg
+.. |VECTOR_FIELD_SINGLE| image:: /images/nodes-socket_vector_field_single.svg
+.. |VECTOR_SINGLE| image:: /images/nodes-socket_vector_single.svg
 """ % etk_version
 
 rst_epilog = """
 .. |ETK_ZIPFILE| replace:: ETK_core-%s.zip
 """ % etk_version
 
+# .. |INTEGER| image:: /images/inputs-integer.png
 #html_logo = "images/etk-logo.svg"

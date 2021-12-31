@@ -19,62 +19,49 @@ node will generate points throughout the volume as well.
 Inputs
 =======
 
-X Count
+|INTEGER_SINGLE| X Count
     Integer value for number of vertices in the X axis.
 
-Y Count
+|INTEGER_SINGLE| Y Count
     Integer value for number of vertices in the Y axis.
 
-Z Count
+|INTEGER_SINGLE| Z Count
     Integer value for number of vertices in the Z axis.
 
-Size
+|VECTOR_FIELD_SINGLE| Size
     The overall size of the grid in metres.
 
-Use Spacing?
+|BOOLEAN_FIELD_SINGLE| Use Spacing
     Toggle to change the **Size** from overall size to the spacing between
     points.
 
-Randomise
+|FLOAT_FIELD_SINGLE| Randomise
     Maximum distance to randomise position by.
 
-Seed
+|INTEGER_FIELD_SINGLE| Seed
      The seed for the randomisation.
 
-Centred?
+|BOOLEAN_FIELD_SINGLE| Centred
     A toggle to choose if the grid is centred on the origin or aligned
     on the bottom left corner.
 
 
-Properties
-===========
-
-This node has no properties.
-
 Outputs
 ========
 
-Geometry
+|GEOMETRY| Geometry
     The generated geometry.
 
-Size
+|INTEGER_SINGLE| Size
     The total number of points generated.
 
-Index
-    An attribute containing the index for each point (eg. 0, 1, 2,
-    3...).
-
-.. figure:: /images/nodes-grid_example_render.png
-   :width: 400
-   :align: right
-
-X Fac
+|FLOAT_FIELD_SINGLE| X Fac
     A 0-1 gradient across the points in the X axis.
 
-Y Fac
+|FLOAT_FIELD_SINGLE| Y Fac
     A 0-1 gradient across the points in the Y axis.
 
-Z Fac
+|FLOAT_FIELD_SINGLE| Z Fac
     A 0-1 gradient across the points in the Z axis.
 
 
