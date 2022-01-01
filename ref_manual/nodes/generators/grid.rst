@@ -75,7 +75,7 @@ Example Usage
    Instancing cubes on a 3 x 3 **ETK_Grid**.
 
 
-.. figure:: /images/nodes-grid_example.png
+.. figure:: /images/nodes-grid_basic02.png
    :width: 800
    :align: center
 
