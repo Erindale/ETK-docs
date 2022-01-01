@@ -27,7 +27,7 @@ Inputs
 |FLOAT_SINGLE| Side Length
     The side length of the triangle.
 
-|BOOLEAN_FIELD_SINGLE| Randomise Rotation?
+|BOOLEAN_FIELD_SINGLE| Randomise Rotation
     Check to randomize the rotation.
 
 |INTEGER_FIELD_SINGLE| Seed

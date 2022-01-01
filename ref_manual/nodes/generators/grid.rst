@@ -68,11 +68,16 @@ Outputs
 Example Usage
 ==============
 
-This example builds a 3D grid out of which the inside points in X and
-Z are removed to form a hollow box of icospheres.
+.. figure:: /images/nodes-grid_basic.png
+   :width: 800
+   :align: center
+
+   Instancing cubes on a 3 x 3 **ETK_Grid**.
+
 
 .. figure:: /images/nodes-grid_example.png
    :width: 800
    :align: center
 
-   Node group for **Grid** example.
+   This example builds a 3D grid out of which the inside points in X
+   and Z are removed to form a hollow box of icospheres.
