@@ -66,14 +66,9 @@ Outputs
 Example Usage
 ==============
 
-The example uses a **Grid Tri** node to make a 4x9 grid of triangles
-(on the left) and randomly selects instances to rotate.
-
-.. figure:: /images/nodes-grid_tri_example_render.png
+.. figure:: /images/nodes-grid_tri_basic.png
    :align: center
-
-.. figure:: /images/nodes-grid_tri_example.png
    :width: 800
-   :align: center
 
-   Node group for **Grid Tri** example.
+   Using **Grid Tri** to generate a simple grid of triangles, which
+   are scaled slightly to show the outlines of the instances.
