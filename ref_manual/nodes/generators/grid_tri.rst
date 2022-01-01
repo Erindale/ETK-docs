@@ -11,63 +11,69 @@
    The ETK_Grid Tri node.
 
 
-The GRID TRI node can be used for 2-dimensional equilateral triangle
+The **Grid Tri** node can be used for 2-dimensional equilateral triangle
 tessellations.
 
 
 Inputs
 =======
 
-X Count
+|INTEGER_SINGLE| X Count
     Integer value for number of vertices in the X axis.
 
-Y Count
-    Integer value for number of vertices in the y axis.
+|INTEGER_SINGLE| Y Count
+    Integer value for number of vertices in the Y axis.
 
-Side Length
+|FLOAT_SINGLE| Side Length
     The side length of the triangle.
 
-Randomise Rotation?
+|BOOLEAN_FIELD_SINGLE| Randomise Rotation?
     Check to randomize the rotation.
 
-Seed
+|INTEGER_FIELD_SINGLE| Seed
     The seed for the randomisation.
 
-Centred?
-    A toggle to choose if the grid is centred on the origin on aligned
-    or the bottom left corner.
+|BOOLEAN_SINGLE| Centred
+    A toggle to choose if the grid is centred on the origin or aligned
+    on the bottom left corner.
 
-Properties
-===========
-
-This node has no properties.
 
 Outputs
 ========
 
-Triangles
+|GEOMETRY| Triangles
    The generated geometry.
 
-Centres
+|GEOMETRY| Centres
    Ouput a point at the centre of each triangle.
 
-Size
+|INTEGER_SINGLE| Size
    The total number of points generated.
 
-X Fac
+|FLOAT_FIELD| X Fac
    A 0-1 gradient across the points in the X axis.
 
-Y Fac
+|FLOAT_FIELD| Y Fac
    A 0-1 gradient across the points in the Y axis.
 
-Row Alt
-   Description of Row Alt
+|BOOLEAN_FIELD| Row Alt
+   True on alternate rows.
 
-Rotation
-   Description of Rotation
+|VECTOR_FIELD| Rotation
+   The rotation vector of each tile.
 
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Grid Tri
+The example uses a **Grid Tri** node to make a 4x9 grid of triangles
+(on the left) and randomly selects instances to rotate.
+
+.. figure:: /images/nodes-grid_tri_example_render.png
+   :align: center
+
+.. figure:: /images/nodes-grid_tri_example.png
+   :width: 800
+   :align: center
+
+   Node group for **Grid Tri** example.

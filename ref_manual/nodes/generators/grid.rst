@@ -75,4 +75,4 @@ Z are removed to form a hollow box of icospheres.
    :width: 800
    :align: center
 
-   Node group for **Grid** example (click to enlarge).
+   Node group for **Grid** example.
