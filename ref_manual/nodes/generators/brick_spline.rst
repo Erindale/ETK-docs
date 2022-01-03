@@ -10,27 +10,69 @@
 
    The ETK_Brick Spline node.
 
-.. todo:: ETK_Brick Spline node description.
+The **Brick Spline** group builds a brick wall along a
+Curve object.
+
+See also :ref:`etk.generators.brick_straight`,
+:ref:`etk.generators.brick_arc`.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|OBJECT| Spline
+   The bezier curve object on which to form the brick wall.
 
-Properties
-===========
+|INTEGER_FIELD_SINGLE| Spline Resolution
+    This sets the number of points along the spline.
 
-This node has no properties
+|COLLECTION| Bricks
+    Source bricks from the given collection.
+
+|FLOAT_SINGLE| Brick Width
+    The width of the bricks.
+
+|FLOAT_SINGLE| Brick Height
+    The height of the bricks.
+
+|FLOAT_SINGLE| Wall Height
+    The target wall height.
+
+|BOOLEAN_SINGLE| Use Z Count
+    A toggle to use *Z Count* instead of *Wall Height*.
+
+|INTEGER_SINGLE| Z Count
+    Integer input for number of bricks in Z.
+
+|BOOLEAN_FIELD_SINGLE| Offset Switch
+    A toggle to change the direction of the offset rows.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+    The generated geometry using bricks.
+
+|GEOMETRY| Points
+    The positions of the bricks.
+
+|FLOAT_FIELD| Curve Fac
+    A 0-1 gradient across the points along the curve.
+
+|FLOAT_FIELD| Z Fac
+    A 0-1 gradient across the points in the Z axis.
+
+|VECTOR_FIELD| Rotation
+    The rotation vector of each brick.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Brick Spline
+.. figure:: /images/nodes-brick_spline_basic.png
+   :align: center
+   :width: 800
+
+   Using a Bezier Curve object twisted into an S-curve in the XY axis,
+   use **Brick Spline** to build a wall along the spline.

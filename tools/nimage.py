@@ -48,14 +48,17 @@ def subArgs():
     parser = argparse.ArgumentParser(description='nimage args parsing')
     parser.add_argument('--in-folder',
                         default='~/Documents/etk',
-                        help='source folder of image files')
+                        help='Source folder of image files.')
     parser.add_argument('--width',
                         default=300,
                         type=int,
-                        help='width in pixels of output image')
+                        help='Width in pixels of output image.')
     parser.add_argument('--out-folder',
                         default='./ref_manual/images',
-                        help='output image location')
+                        help='Output image location.')
+    parser.add_argument('--force',
+                        action='store_true',
+                        help='Overwrite existing file.')
     args = parser.parse_args()
     return args
 
@@ -74,16 +77,13 @@ def main(args):
             convert.append('{0}x'.format(args.width))
         convert.append('-')
         p1 = subprocess.Popen(convert, stdout=subprocess.PIPE)
-        p2 = subprocess.Popen(['pngquant',
-                               '--strip',
-                               '--quality',
-                               '75-95',
-                               '--output',
-                               outimage,
-                               '-'
-                               ],
-                              stdin=p1.stdout
-                              )
+        quantify = ['pngquant', '--strip', '--quality', '75-95']
+        if args.force:
+            quantify.append('--force')
+        quantify.append('--output')
+        quantify.append(outimage)
+        quantify.append('-')
+        p2 = subprocess.Popen(quantify, stdin=p1.stdout)
         p1.stdout.close()
         p2.communicate()[0]
 

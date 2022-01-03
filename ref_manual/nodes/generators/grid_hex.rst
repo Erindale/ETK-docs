@@ -24,13 +24,14 @@ Inputs
     Length of each of the six sides.
 
 |BOOLEAN_FIELD_SINGLE| Randomise Rotation
-    Check to randomise the rotation of the hex tiles.
+     Enables a random rotation per tile in 60° steps.
 
 |INTEGER_FIELD_SINGLE| Seed
     The seed for the randomisation.
 
 |BOOLEAN_FIELD_SINGLE| Centred
-    If checked will center the grid.
+    A toggle to choose if the grid is centred on the origin or aligned
+    on the bottom left corner.
 
 Outputs
 ========

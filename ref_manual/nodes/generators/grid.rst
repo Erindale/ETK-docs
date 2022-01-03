@@ -79,5 +79,5 @@ Example Usage
    :width: 800
    :align: center
 
-   This example builds a 3D grid out of which the inside points in X
-   and Z are removed to form a hollow box of icospheres.
+   This example builds a 3D grid out of which some interior instances
+   are removed then joined with a cube.

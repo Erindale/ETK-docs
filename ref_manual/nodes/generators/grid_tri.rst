@@ -28,7 +28,7 @@ Inputs
     The side length of the triangle.
 
 |BOOLEAN_FIELD_SINGLE| Randomise Rotation
-    Check to randomize the rotation.
+    Enables a random rotation per tile in 120° steps.
 
 |INTEGER_FIELD_SINGLE| Seed
     The seed for the randomisation.
@@ -42,7 +42,7 @@ Outputs
 ========
 
 |GEOMETRY| Triangles
-   The generated geometry.
+   The generated points.
 
 |GEOMETRY| Centres
    Ouput a point at the centre of each triangle.
@@ -57,7 +57,8 @@ Outputs
    A 0-1 gradient across the points in the Y axis.
 
 |BOOLEAN_FIELD| Row Alt
-   True on alternate rows.
+   A 0/1 value per row in case some scenarios require you to rotate
+   instanced objects manually.
 
 |VECTOR_FIELD| Rotation
    The rotation vector of each tile.
