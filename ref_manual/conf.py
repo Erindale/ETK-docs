@@ -84,7 +84,7 @@ if html_theme == "sphinx_rtd_theme":
         "display_version": False,
         "collapse_navigation": True,
         "navigation_depth": -1,
-        "logo_only" : False
+        "logo_only" : True
     }
 
     extensions.append('sphinx_rtd_theme')
@@ -92,7 +92,7 @@ if html_theme == "sphinx_rtd_theme":
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['_static']
+html_static_path = ['_static']
 
 rst_prolog = """
 .. |ETK_VERSION| replace:: %s
@@ -118,4 +118,4 @@ rst_epilog = """
 """ % etk_version
 
 # .. |INTEGER| image:: /images/inputs-integer.png
-#html_logo = "images/etk-logo.svg"
+html_logo = "_static/etk-logo.svg"

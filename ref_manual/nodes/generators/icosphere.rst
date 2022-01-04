@@ -10,27 +10,59 @@
 
    The ETK_Icosphere node.
 
-.. todo:: ETK_Icosphere node description.
+Upcycling the Icosphere primitive node to add some extra
+functionality.
 
+Using U (horizontal) and V (vertical) limits to cull points if a full
+sphere isn’t needed.
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_SINGLE| Radius
+   The radius of the sphere in meters.
 
-Properties
-===========
+|INTEGER_SINGLE| Subdivisions
+    The level of subdivisions on the Icosphere.
 
-This node has no properties
+|FLOAT_FIELD| U Min
+   The lower U limit in degrees.
+
+|FLOAT_FIELD| U Max
+   The upper U limit in degrees.
+
+|FLOAT_FIELD| V Min
+   The lower V limit in degrees.
+
+|FLOAT_FIELD| V Max
+   The upper V limit in degrees.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   The generated geometry.
+
+|INTEGER_SINGLE| Size
+   The total number of points generated.
+
+|FLOAT_FIELD| U Fac
+   A 0-1 gradient around the points in the U direction.
+
+|FLOAT_FIELD| V Fac
+   A 0-1 gradient around the points in the V direction.
+
+|VECTOR_FIELD| Rotation
+   The rotation vector for each generated point.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Icosphere
+.. figure:: /images/nodes-icosphere_basic.png
+   :align: center
+   :width: 800
+
+   In this example, cubes have been instanced on the **Icosphere**
+   then scaled using *V Fac* and rotated to face the center.
