@@ -10,27 +10,69 @@
 
    The ETK_Ellipse node.
 
-.. todo:: ETK_Ellipse node description.
+From the `wiki article <https://en.wikipedia.org/wiki/Ellipse>`_ on
+the ellipse,
+
+   *An ellipse is a plane curve surrounding two focal points, such that
+   all points on the curve, the sum of the two distances to the focal
+   points is a constant.*
+
+The **Ellipse** group node generates points on the elliptical arc
+defined by its inputs. Of the two *radius* inputs, the longer radius is
+typically called the major axis and the shorter one, the minor axis.
+If they are equal this node will form a circle.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER_SINGLE| Vertices
+    The resolution or number of points to generate.
 
-Properties
-===========
+|FLOAT_SINGLE| Radius X
+    This determines the width along the X axis.
 
-This node has no properties
+|FLOAT_SINGLE| Radius Y
+    This determines the height along the Y axis.
+
+|FLOAT_SINGLE| U Min
+    The starting angle of the elliptical arc.
+
+|FLOAT_SINGLE| U Max
+    The ending angle of the elliptical arc.
+
+|BOOLEAN_SINGLE| Use Spacing
+    A toggle to use the *Spacing* value instead of *Vertices*.
+
+|FLOAT_SINGLE| Spacing
+    If *Use Spacing* is selected, the distance between points of the
+    ellipse.
+
+|BOOLEAN_SINGLE| Centre Vertex
+    If selected, place a point at the center of the ellipse.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| The generated points.
+
+|INTEGER_SINGLE| Size
+    The number of points generated.
+
+|FLOAT_FIELD| Fac
+    A 0..1 gradiant along the generated points.
+
+|VECTOR_FIELD| Rotation
+    A rotation vector of the point to the centre of the ellipse.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Ellipse
+.. figure:: /images/nodes-ellipse_basic.png
+   :align: center
+   :width: 800
+
+   Using the **Ellipse** node to create an ellipse of cubes which
+   have been adjusted by the rotation vector to face the centre axis.
