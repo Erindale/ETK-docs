@@ -13,12 +13,12 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+import datetime
 
 # -- Project information -----------------------------------------------------
 etk_version = '3.0'
 project = 'ETK %s Manual' % etk_version
-copyright = '2021'
+copyright = f': {datetime.date.today().year} by Erin Woodford'
 author = 'erin'
 doc_author = 'erin, glenl'
 
@@ -38,10 +38,8 @@ todo_include_todos = True
 # todo_link_only = False
 
 # If true, the ReST sources are included in the HTML build as _sources/name
-html_copy_source = False
-
-# Turn off the 'View page source' distraction
-html_show_sourcelink = False
+#html_copy_source = False
+html_show_sourcelink = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -94,6 +92,9 @@ if html_theme == "sphinx_rtd_theme":
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+pygments_style = 'sphinx'
+html_use_smartypants = True
+
 rst_prolog = """
 .. |ETK_VERSION| replace:: %s
 .. |OBJECT| image:: /images/nodes-socket_object.svg
@@ -117,5 +118,10 @@ rst_epilog = """
 .. |ETK_ZIPFILE| replace:: ETK_core-%s.zip
 """ % etk_version
 
-# .. |INTEGER| image:: /images/inputs-integer.png
+# If true, “(C) Copyright …” is shown in the HTML footer.
+html_show_copyright = True
+
+# If true, “Created using Sphinx” is shown in the HTML footer.
+html_show_sphinx = False
+
 html_logo = "_static/etk-logo.svg"

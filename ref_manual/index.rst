@@ -5,10 +5,9 @@
 #####################################
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
+   :maxdepth: 1
 
-   getting_started/index.rst
+   installation.rst
    nodes/index.rst
    setup_examples/index.rst
 
