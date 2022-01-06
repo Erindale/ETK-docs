@@ -99,6 +99,7 @@ if html_theme == "sphinx_rtd_theme":
 rst_prolog = """
 .. |ETK_VERSION| replace:: %s
 .. |OBJECT| image:: /images/nodes-socket_object.svg
+.. |MATERIAL| image:: /images/nodes-socket_material.svg
 .. |COLLECTION| image:: /images/nodes-socket_collection.svg
 .. |GEOMETRY| image:: /images/nodes-socket_geometry.svg
 .. |BOOLEAN_FIELD| image:: /images/nodes-socket_boolean_field.svg

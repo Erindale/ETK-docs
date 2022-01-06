@@ -10,25 +10,56 @@
 
    The ETK_Purz node.
 
-.. todo:: ETK_Purz node description.
+ETK_Purz node description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_SINGLE| Size
 
-Properties
-===========
+|INTEGER_SINGLE| Start Resolution
 
-This node has no properties
+|INTEGER_SINGLE| Veneer Count
+
+|FLOAT_FIELD_SINGLE| Randomise
+
+|FLOAT_FIELD_SINGLE| Displace Amount
+
+|INTEGER_FIELD_SINGLE| Seed
+
+|FLOAT_FIELD_SINGLE| Veneer Thickness
+
+|FLOAT_FIELD_SINGLE| Cull Veneer
+
+|FLOAT_FIELD_SINGLE| Wire Density
+
+|FLOAT_FIELD_SINGLE| Wire Radius
+
+|FLOAT_FIELD_SINGLE| Wire Wiggle
+
+|VECTOR_FIELD_SINGLE| Bend Centre
+
+|VECTOR_FIELD_SINGLE| Bend Axis
+
+|FLOAT_FIELD_SINGLE| Bend Low Limit
+
+|FLOAT_FIELD_SINGLE| Bend High Limit
+
+|FLOAT_FIELD_SINGLE| Bend Low Angle
+
+|FLOAT_FIELD_SINGLE| Bend High Angle
+
+|MATERIAL| Veneer Material
+
+|MATERIAL| Wire Material
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   The generated geometry.
 
 Example Usage
 ==============
