@@ -44,6 +44,14 @@ html_show_sourcelink = True
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
+
+pygments_style = 'sphinx'
+html_use_smartypants = True
+
 source_suffix = '.rst'
 master_doc = 'index'
 
@@ -77,6 +85,7 @@ except ModuleNotFoundError:
 html_theme_options = {}
 html_theme_path = []
 if html_theme == "sphinx_rtd_theme":
+    html_css_files = ["css/theme_tweaks.css"]
     html_theme_options = {
         # included in the title
         "display_version": False,
@@ -86,14 +95,6 @@ if html_theme == "sphinx_rtd_theme":
     }
 
     extensions.append('sphinx_rtd_theme')
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-
-pygments_style = 'sphinx'
-html_use_smartypants = True
 
 rst_prolog = """
 .. |ETK_VERSION| replace:: %s
@@ -122,6 +123,6 @@ rst_epilog = """
 html_show_copyright = True
 
 # If true, “Created using Sphinx” is shown in the HTML footer.
-html_show_sphinx = False
+html_show_sphinx = True
 
 html_logo = "_static/etk-logo.svg"

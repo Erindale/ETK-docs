@@ -49,6 +49,9 @@ def subArgs():
     parser.add_argument('--in-folder',
                         default='~/Documents/etk',
                         help='Source folder of image files.')
+    parser.add_argument('--prefix',
+                        default='nodes',
+                        help='String prepended to the output filename')
     parser.add_argument('--width',
                         default=300,
                         type=int,
@@ -68,7 +71,10 @@ def subArgs():
 def main(args):
     imagepath = pathlib.Path(os.path.expanduser(args.in_folder))
     for image in list(imagepath.glob('./*.png')):
-        base = 'nodes-{0}'.format(os.path.basename(image).replace('-','_'))
+        base = '{0}-{1}'.format(
+            args.prefix,
+            os.path.basename(image).replace('-','_')
+        )
         outimage = os.path.join(args.out_folder, base)
         print('Converting {0} -> {1} '.format(image, base))
         convert = ['convert', image]
