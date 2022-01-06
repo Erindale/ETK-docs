@@ -10,27 +10,48 @@
 
    The ETK_Line node.
 
-.. todo:: ETK_Line node description.
-
+The **ETK_Line** group node functions similarly to the default *Line* primitive
+node but with a socket to toggle between length and spacing (offset)
+mode.
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER_SINGLE| Vertices
+   Integer value for total number of vertices.
 
-Properties
-===========
+|VECTOR_FIELD_SINGLE| Start
 
-This node has no properties
+|VECTOR_FIELD_SINGLE| Direction
+
+|FLOAT_FIELD_SINGLE| Length
+    The length of the line in meters.
+
+|BOOLEAN_FIELD_SINGLE| Use Spacing
+    When check, use the *Length* value as an offset for each vertex created.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   The generated geometry,
+
+|INTEGER_SINGLE| Size
+   The total number of points generated.
+
+|FLOAT_FIELD| Fac
+   A 0-1 gradient across the points.
+
+|VECTOR_FIELD_SINGLE| Rotation
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Line
+.. figure:: /images/nodes-line_basic.png
+   :align: center
+   :width: 800
+
+   Using **ETK_Line** to spread 4 icospheres 1 meter apart in X. Note
+   how *Use Spacing* is used in this example.
