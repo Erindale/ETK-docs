@@ -19,13 +19,13 @@ node will generate points throughout the volume as well.
 Inputs
 =======
 
-|INTEGER_SINGLE| X Count
+|INTEGER| X Count
     Integer value for number of vertices in the X axis.
 
-|INTEGER_SINGLE| Y Count
+|INTEGER| Y Count
     Integer value for number of vertices in the Y axis.
 
-|INTEGER_SINGLE| Z Count
+|INTEGER| Z Count
     Integer value for number of vertices in the Z axis.
 
 |VECTOR_FIELD_SINGLE| Size
@@ -52,7 +52,7 @@ Outputs
 |GEOMETRY| Geometry
     The generated geometry.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
     The total number of points generated.
 
 |FLOAT_FIELD| X Fac

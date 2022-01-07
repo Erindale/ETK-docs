@@ -19,10 +19,10 @@ sphere isn’t needed.
 Inputs
 =======
 
-|FLOAT_SINGLE| Radius
+|FLOAT| Radius
    The radius of the sphere in meters.
 
-|INTEGER_SINGLE| Subdivisions
+|INTEGER| Subdivisions
     The level of subdivisions on the Icosphere.
 
 |FLOAT_FIELD| U Min
@@ -44,7 +44,7 @@ Outputs
 |GEOMETRY| Geometry
    The generated geometry.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
    The total number of points generated.
 
 |FLOAT_FIELD| U Fac

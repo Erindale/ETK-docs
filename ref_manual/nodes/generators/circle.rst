@@ -16,25 +16,25 @@ The **Circle** node group is for creating circles and arcs.
 Inputs
 =======
 
-|INTEGER_SINGLE| Vertices
+|INTEGER| Vertices
     The count of vertices in the circle.
 
-|FLOAT_SINGLE| Radius
+|FLOAT| Radius
     The circle's radius.
 
-|FLOAT_SINGLE| U Min
+|FLOAT| U Min
     The starting angle of the arc in degrees.
 
-|FLOAT_SINGLE| U Max
+|FLOAT| U Max
     The ending angle of the arc in degrees.
 
-|BOOLEAN_SINGLE| Use Spacing
+|BOOLEAN| Use Spacing
     A toggle to use the *Spacing* value instead of vertex count.
 
-|FLOAT_SINGLE| Spacing
+|FLOAT| Spacing
     The distance along the arc of the circle on which to place points.
 
-|BOOLEAN_SINGLE| Centre Vertex
+|BOOLEAN| Centre Vertex
     tbd
 
 Outputs
@@ -43,7 +43,7 @@ Outputs
 |GEOMETRY| Geometry
     The generated points.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
     The total number of points generated.
 
 |FLOAT_FIELD| Fac

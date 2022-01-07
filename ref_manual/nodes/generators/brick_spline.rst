@@ -29,19 +29,19 @@ Inputs
 |COLLECTION| Bricks
     Source bricks from the given collection.
 
-|FLOAT_SINGLE| Brick Width
+|FLOAT| Brick Width
     The width of the bricks.
 
-|FLOAT_SINGLE| Brick Height
+|FLOAT| Brick Height
     The height of the bricks.
 
-|FLOAT_SINGLE| Wall Height
+|FLOAT| Wall Height
     The target wall height.
 
-|BOOLEAN_SINGLE| Use Z Count
+|BOOLEAN| Use Z Count
     A toggle to use *Z Count* instead of *Wall Height*.
 
-|INTEGER_SINGLE| Z Count
+|INTEGER| Z Count
     Integer input for number of bricks in Z.
 
 |BOOLEAN_FIELD_SINGLE| Offset Switch

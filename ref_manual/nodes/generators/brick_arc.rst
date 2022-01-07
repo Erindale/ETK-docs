@@ -26,33 +26,33 @@ Inputs
 |COLLECTION| Bricks
    The collection containing brick objects.
 
-|FLOAT_SINGLE| Brick Width
+|FLOAT| Brick Width
     The width of the bricks.
 
-|FLOAT_SINGLE| Brick Height
+|FLOAT| Brick Height
     The height of the bricks.
 
-|FLOAT_SINGLE| Radius
+|FLOAT| Radius
     The arc radius.
 
-|FLOAT_SINGLE| Angle
+|FLOAT| Angle
 
-|FLOAT_SINGLE| Wall Height
+|FLOAT| Wall Height
     The target wall height.
 
-|FLOAT_SINGLE| Rotation
+|FLOAT| Rotation
     Rotation of the wall in degrees.
 
-|BOOLEAN_SINGLE| Use X Count
+|BOOLEAN| Use X Count
     Toggle to use *X Count* instead of *Radius*
 
-|INTEGER_SINGLE| X Count
+|INTEGER| X Count
     Integer input for number of bricks in X.
 
-|BOOLEAN_SINGLE| Use Z Count
+|BOOLEAN| Use Z Count
     A toggle to use *Z Count* instead of *Wall Height*.
 
-|INTEGER_SINGLE| Z Count
+|INTEGER| Z Count
     Integer input for number of bricks in Z.
 
 |BOOLEAN_FIELD_SINGLE| Offset Switch
@@ -68,10 +68,10 @@ Outputs
 |GEOMETRY| Points
     The positions of bricks
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
     The total number of bricks generated.
 
-|FLOAT_SINGLE| Radius
+|FLOAT| Radius
     The arc radius in meters.
 
 |FLOAT_FIELD| X Fac

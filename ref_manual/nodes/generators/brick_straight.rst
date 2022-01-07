@@ -22,28 +22,28 @@ Inputs
 |COLLECTION| Bricks
    The collection containing brick objects.
 
-|FLOAT_SINGLE| Brick Width
+|FLOAT| Brick Width
     The width of the bricks.
 
-|FLOAT_SINGLE| Brick Height
+|FLOAT| Brick Height
     The height of the bricks.
 
-|FLOAT_SINGLE| Wall Length
+|FLOAT| Wall Length
     The target wall length.
 
-|FLOAT_SINGLE| Wall Height
+|FLOAT| Wall Height
     The target wall height.
 
-|BOOLEAN_SINGLE| Use X Count
+|BOOLEAN| Use X Count
     Toggle to use *X Count* instead of *Wall Length*
 
-|INTEGER_SINGLE| X Count
+|INTEGER| X Count
     Integer input for number of bricks in X.
 
-|BOOLEAN_SINGLE| Use Z Count
+|BOOLEAN| Use Z Count
     A toggle to use *Z Count* instead of *Wall Height*.
 
-|INTEGER_SINGLE| Z Count
+|INTEGER| Z Count
     Integer input for number of bricks in Z.
 
 |BOOLEAN_FIELD_SINGLE| Offset Switch
@@ -59,7 +59,7 @@ Outputs
 |GEOMETRY| Points
     The positions of the bricks.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
     The total number of bricks generated.
 
 |FLOAT_FIELD| X Fac

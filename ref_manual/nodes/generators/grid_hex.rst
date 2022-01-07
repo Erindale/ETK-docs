@@ -14,13 +14,13 @@
 Inputs
 =======
 
-|INTEGER_SINGLE| X Count
+|INTEGER| X Count
     Integer value for number of vertices in the X axis.
 
-|INTEGER_SINGLE| Y Count
+|INTEGER| Y Count
     Integer value for number of vertices in the Y axis.
 
-|FLOAT_SINGLE| Side Length
+|FLOAT| Side Length
     Length of each of the six sides.
 
 |BOOLEAN_FIELD_SINGLE| Randomise Rotation
@@ -41,7 +41,7 @@ Outputs
 |GEOMETRY| Centres
    Ouput a point at the centre of each hexagon.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
    The total number of points generated.
 
 |FLOAT_FIELD| X Fac

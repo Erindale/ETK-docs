@@ -16,11 +16,11 @@ ETK_Purz node description.
 Inputs
 =======
 
-|VECTOR_SINGLE| Size
+|VECTOR| Size
 
-|INTEGER_SINGLE| Start Resolution
+|INTEGER| Start Resolution
 
-|INTEGER_SINGLE| Veneer Count
+|INTEGER| Veneer Count
 
 |FLOAT_FIELD_SINGLE| Randomise
 

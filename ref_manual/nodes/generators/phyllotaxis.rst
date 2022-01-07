@@ -20,7 +20,7 @@ arrangements with this group.
 Inputs
 =======
 
-|INTEGER_SINGLE| Vertices
+|INTEGER| Vertices
    Integer value for the total number of vertices.
 
 |FLOAT_FIELD_SINGLE| Angle
@@ -46,7 +46,7 @@ Outputs
 |GEOMETRY| Geometry
    The generated geometry.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
    The total number of points generated.
 
 |FLOAT_FIELD| Falloff

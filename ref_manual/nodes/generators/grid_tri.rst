@@ -18,13 +18,13 @@ tessellations.
 Inputs
 =======
 
-|INTEGER_SINGLE| X Count
+|INTEGER| X Count
     Integer value for number of vertices in the X axis.
 
-|INTEGER_SINGLE| Y Count
+|INTEGER| Y Count
     Integer value for number of vertices in the Y axis.
 
-|FLOAT_SINGLE| Side Length
+|FLOAT| Side Length
     The side length of the triangle.
 
 |BOOLEAN_FIELD_SINGLE| Randomise Rotation
@@ -33,7 +33,7 @@ Inputs
 |INTEGER_FIELD_SINGLE| Seed
     The seed for the randomisation.
 
-|BOOLEAN_SINGLE| Centred
+|BOOLEAN| Centred
     A toggle to choose if the grid is centred on the origin or aligned
     on the bottom left corner.
 
@@ -47,7 +47,7 @@ Outputs
 |GEOMETRY| Centres
    Ouput a point at the centre of each triangle.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
    The total number of points generated.
 
 |FLOAT_FIELD| X Fac

@@ -17,7 +17,7 @@ mode.
 Inputs
 =======
 
-|INTEGER_SINGLE| Vertices
+|INTEGER| Vertices
    Integer value for total number of vertices.
 
 |VECTOR_FIELD_SINGLE| Start
@@ -37,7 +37,7 @@ Outputs
 |GEOMETRY| Geometry
    The generated geometry,
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
    The total number of points generated.
 
 |FLOAT_FIELD| Fac

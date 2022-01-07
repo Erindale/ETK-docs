@@ -26,29 +26,29 @@ If they are equal this node will form a circle.
 Inputs
 =======
 
-|INTEGER_SINGLE| Vertices
+|INTEGER| Vertices
     The resolution or number of points to generate.
 
-|FLOAT_SINGLE| Radius X
+|FLOAT| Radius X
     This determines the width along the X axis.
 
-|FLOAT_SINGLE| Radius Y
+|FLOAT| Radius Y
     This determines the height along the Y axis.
 
-|FLOAT_SINGLE| U Min
+|FLOAT| U Min
     The starting angle of the elliptical arc.
 
-|FLOAT_SINGLE| U Max
+|FLOAT| U Max
     The ending angle of the elliptical arc.
 
-|BOOLEAN_SINGLE| Use Spacing
+|BOOLEAN| Use Spacing
     A toggle to use the *Spacing* value instead of *Vertices*.
 
-|FLOAT_SINGLE| Spacing
+|FLOAT| Spacing
     If *Use Spacing* is selected, the distance between points of the
     ellipse.
 
-|BOOLEAN_SINGLE| Centre Vertex
+|BOOLEAN| Centre Vertex
     If selected, place a point at the center of the ellipse.
 
 
@@ -57,7 +57,7 @@ Outputs
 
 |GEOMETRY| The generated points.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
     The number of points generated.
 
 |FLOAT_FIELD| Fac

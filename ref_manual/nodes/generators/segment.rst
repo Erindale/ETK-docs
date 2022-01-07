@@ -17,20 +17,20 @@ vertex count and spacing mode.
 Inputs
 =======
 
-|INTEGER_SINGLE| Vertices
+|INTEGER| Vertices
    The number of points in the generated segment.
 
-|VECTOR_SINGLE| A
+|VECTOR| A
    Vector for the start point of the line.
 
-|VECTOR_SINGLE| B
+|VECTOR| B
    Vector for the end point of the line.
 
-|BOOLEAN_SINGLE| Use Spacing
+|BOOLEAN| Use Spacing
    If selected, the *Vertices* value is ignored and the number of
    vertices between *A* and *B* is determined by *Spacing*
 
-|FLOAT_SINGLE| Spacing
+|FLOAT| Spacing
    This value determines the number of points in the segment when *Use
    Spacing* is set.
 
@@ -41,7 +41,7 @@ Outputs
 |GEOMETRY| Geometry
    The generated geometry.
 
-|INTEGER_SINGLE| Size
+|INTEGER| Size
    The total number of points generated.
 
 |FLOAT_FIELD| Fac
