@@ -10,27 +10,54 @@
 
    The ETK_Spherical Spiral node.
 
-.. todo:: ETK_Spherical Spiral node description.
+
+The **Spherical Spiral** node group wraps a spiral around a sphere in
+the Z direction.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER_FIELD_SINGLE| Points
+   An integer number of points that will form the generated geometry.
 
-Properties
-===========
+|FLOAT| Radius
+   The radius of the sphere.
 
-This node has no properties
+|FLOAT| Rotations
+   Number of rotations around the sphere.
+
+|BOOLEAN| Reverse
+   Form the spiral in the opposite direction
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   The generated geometry.
+
+|INTEGER_FIELD_SINGLE| Size
+   The number of points generated.
+
+|FLOAT_FIELD| Curve Fac
+   A 0..1 gradient along the curve of the geometry.
+
+|FLOAT_FIELD| Z Fac
+   A 0..1 gradient along the Z axis of all the generated points.
+
+|FLOAT_FIELD| θ Fac
+   A 0..1 gradient around
+
+|VECTOR_FIELD| Rotation
+   A rotation vector at each point.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Spherical Spiral
+.. figure:: /images/nodes-spherical_sphere_basic.png
+   :align: center
+   :width: 800
+
+   The default **ETK_Spherical Spiral** node group output.
