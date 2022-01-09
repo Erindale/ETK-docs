@@ -10,25 +10,22 @@
 
    The ETK_Vertex node.
 
-.. todo:: ETK_Vertex node description.
+The **Vertex** group creates a single vertex at the given coordinates.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR| Vector
+   Vector coordinate for the vertex.
 
-Properties
-===========
-
-This node has no properties
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   The generated geometry.
+
 
 Example Usage
 ==============
