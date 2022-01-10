@@ -66,4 +66,4 @@ Example Usage
    :align: center
    :width: 800
 
-   Caption.
+   The **UV Sphere** group used to create a sphere with a hole.
