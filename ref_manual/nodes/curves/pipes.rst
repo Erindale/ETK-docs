@@ -10,27 +10,37 @@
 
    The ETK_Pipes node.
 
-.. todo:: ETK_Pipes node description.
+
+The **Pipes** group takes a *mesh* or *curve* object and forms a pipe
+onto that geometry.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh / Curve
+   The input geometry on which to form a pipe.
 
-Properties
-===========
+|FLOAT| Radius
+   Radius of the pipe.
 
-This node has no properties
+|INTEGER| Resolution
+   The resolution of the circumference of the pipe.
+
+|BOOLEAN| Fill Caps
+   Fill end caps of the pipe if checked.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Mesh
+   The output mesh.
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Pipes
+.. figure:: /images/curves-pipes_basic.png
+   :align: center
+   :width: 800
+
+   Using an **ETK_Pipes** group to create a simple spring.
