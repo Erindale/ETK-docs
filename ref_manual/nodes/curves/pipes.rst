@@ -39,7 +39,7 @@ Outputs
 Example Usage
 ==============
 
-.. figure:: /images/curves-pipes_basic.png
+.. figure:: /images/nodes-pipes_basic.png
    :align: center
    :width: 800
 
