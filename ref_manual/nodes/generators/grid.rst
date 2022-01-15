@@ -1,5 +1,5 @@
 .. index:: Generators; Grid
-.. _etk.generators.grid:
+.. _etk-generators-grid:
 
 *****
  Grid

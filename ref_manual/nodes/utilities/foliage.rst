@@ -1,5 +1,5 @@
 .. index:: Utilities; Foliage
-.. _etk.utilities.foliage:
+.. _etk-utilities-foliage:
 
 ********
  Foliage

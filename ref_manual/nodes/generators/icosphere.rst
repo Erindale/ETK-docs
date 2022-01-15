@@ -1,5 +1,5 @@
 .. index:: Generators; Icosphere
-.. _etk.generators.icosphere:
+.. _etk-generators-icosphere:
 
 **********
  Icosphere

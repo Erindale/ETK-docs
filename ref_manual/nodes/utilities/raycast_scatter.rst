@@ -1,5 +1,5 @@
 .. index:: Utilities; Raycast Scatter
-.. _etk.utilities.raycast_scatter:
+.. _etk-utilities-raycast_scatter:
 
 ****************
  Raycast Scatter

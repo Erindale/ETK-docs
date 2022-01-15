@@ -1,5 +1,5 @@
 .. index:: Generators; Segment
-.. _etk.generators.segment:
+.. _etk-generators-segment:
 
 ********
  Segment

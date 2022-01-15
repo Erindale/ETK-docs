@@ -1,5 +1,5 @@
 .. index:: Utilities; Transform+
-.. _etk.utilities.transform+:
+.. _etk-utilities-transform+:
 
 ***********
  Transform+

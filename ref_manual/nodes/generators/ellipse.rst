@@ -1,5 +1,5 @@
 .. index:: Generators; Ellipse
-.. _etk.generators.ellipse:
+.. _etk-generators-ellipse:
 
 ********
  Ellipse

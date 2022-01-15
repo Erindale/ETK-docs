@@ -1,5 +1,5 @@
 .. index:: Mapping; Looping Coordinates
-.. _etk.mapping.looping_coordinates:
+.. _etk-mapping-looping_coordinates:
 
 ********************
  Looping Coordinates

@@ -1,5 +1,5 @@
 .. index:: Mapping; Space Converter
-.. _etk.mapping.space_converter:
+.. _etk-mapping-space_converter:
 
 ****************
  Space Converter

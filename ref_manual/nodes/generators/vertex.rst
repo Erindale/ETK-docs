@@ -1,5 +1,5 @@
 .. index:: Generators; Vertex
-.. _etk.generators.vertex:
+.. _etk-generators-vertex:
 
 *******
  Vertex

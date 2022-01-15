@@ -1,5 +1,5 @@
 .. index:: Utilities; Random Float
-.. _etk.utilities.random_float:
+.. _etk-utilities-random_float:
 
 *************
  Random Float

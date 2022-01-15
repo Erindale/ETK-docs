@@ -1,5 +1,5 @@
 .. index:: Masks; Selection Normals
-.. _etk.masks.selection_normals:
+.. _etk-masks-selection_normals:
 
 ******************
  Selection Normals

@@ -1,5 +1,5 @@
 .. index:: Generators; Circle
-.. _etk.generators.circle:
+.. _etk-generators-circle:
 
 *******
  Circle

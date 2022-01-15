@@ -1,5 +1,5 @@
 .. index:: Utilities; Random Bias V
-.. _etk.utilities.random_bias_v:
+.. _etk-utilities-random_bias_v:
 
 **************
  Random Bias V

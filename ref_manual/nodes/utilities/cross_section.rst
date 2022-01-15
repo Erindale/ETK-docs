@@ -1,5 +1,5 @@
 .. index:: Utilities; Cross Section
-.. _etk.utilities.cross_section:
+.. _etk-utilities-cross_section:
 
 **************
  Cross Section

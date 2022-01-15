@@ -1,5 +1,5 @@
 .. index:: Utilities; Array Radial
-.. _etk.utilities.array_radial:
+.. _etk-utilities-array_radial:
 
 *************
  Array Radial

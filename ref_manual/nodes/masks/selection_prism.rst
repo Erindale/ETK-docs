@@ -1,5 +1,5 @@
 .. index:: Masks; Selection Prism
-.. _etk.masks.selection_prism:
+.. _etk-masks-selection_prism:
 
 ****************
  Selection Prism

@@ -1,5 +1,5 @@
 .. index:: Mapping; Cartesian to Spherical
-.. _etk.mapping.cartesian_to_spherical:
+.. _etk-mapping-cartesian_to_spherical:
 
 ***********************
  Cartesian to Spherical

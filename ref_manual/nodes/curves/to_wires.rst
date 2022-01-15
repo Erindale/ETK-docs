@@ -1,5 +1,5 @@
 .. index:: Curves; To Wires
-.. _etk.curves.to_wires:
+.. _etk-curves-to_wires:
 
 *********
  To Wires

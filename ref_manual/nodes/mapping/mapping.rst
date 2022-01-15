@@ -1,5 +1,5 @@
 .. index:: Mapping; Mapping
-.. _etk.mapping.mapping:
+.. _etk-mapping-mapping:
 
 ********
  Mapping

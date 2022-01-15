@@ -1,5 +1,5 @@
 .. index:: Falloff; Easing Exponential
-.. _etk.falloff.easing_exponential:
+.. _etk-falloff-easing_exponential:
 
 *******************
  Easing Exponential

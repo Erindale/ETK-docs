@@ -1,5 +1,5 @@
 .. index:: Generators; Line
-.. _etk.generators.line:
+.. _etk-generators-line:
 
 *****
  Line

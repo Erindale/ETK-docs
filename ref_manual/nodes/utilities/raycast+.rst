@@ -1,5 +1,5 @@
 .. index:: Utilities; Raycast+
-.. _etk.utilities.raycast+:
+.. _etk-utilities-raycast+:
 
 *********
  Raycast+

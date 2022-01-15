@@ -1,5 +1,5 @@
 .. index:: Utilities; Shrinkwrap
-.. _etk.utilities.shrinkwrap:
+.. _etk-utilities-shrinkwrap:
 
 ***********
  Shrinkwrap

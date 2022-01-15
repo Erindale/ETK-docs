@@ -1,5 +1,5 @@
 .. index:: Generators; Phyllotaxis
-.. _etk.generators.phyllotaxis:
+.. _etk-generators-phyllotaxis:
 
 ************
  Phyllotaxis

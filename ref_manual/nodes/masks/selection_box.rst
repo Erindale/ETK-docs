@@ -1,5 +1,5 @@
 .. index:: Masks; Selection Box
-.. _etk.masks.selection_box:
+.. _etk-masks-selection_box:
 
 **************
  Selection Box

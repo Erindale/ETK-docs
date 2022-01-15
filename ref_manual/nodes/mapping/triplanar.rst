@@ -1,5 +1,5 @@
 .. index:: Mapping; Triplanar
-.. _etk.mapping.triplanar:
+.. _etk-mapping-triplanar:
 
 **********
  Triplanar

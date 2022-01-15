@@ -1,5 +1,5 @@
 .. index:: Generators; Brick Spline
-.. _etk.generators.brick_spline:
+.. _etk-generators-brick_spline:
 
 *************
  Brick Spline
@@ -13,8 +13,8 @@
 The **Brick Spline** group builds a brick wall along a
 Curve object.
 
-See also :ref:`etk.generators.brick_straight`,
-:ref:`etk.generators.brick_arc`.
+See also :ref:`etk-generators-brick_straight`,
+:ref:`etk-generators-brick_arc`.
 
 
 Inputs

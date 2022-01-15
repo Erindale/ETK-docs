@@ -1,5 +1,5 @@
 .. index:: Falloff; Easing Mixer
-.. _etk.falloff.easing_mixer:
+.. _etk-falloff-easing_mixer:
 
 *************
  Easing Mixer

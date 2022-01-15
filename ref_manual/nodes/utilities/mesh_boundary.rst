@@ -1,5 +1,5 @@
 .. index:: Utilities; Mesh Boundary
-.. _etk.utilities.mesh_boundary:
+.. _etk-utilities-mesh_boundary:
 
 **************
  Mesh Boundary

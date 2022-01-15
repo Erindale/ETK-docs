@@ -1,5 +1,5 @@
 .. index:: Fields; Field Get Item
-.. _etk.fields.field_get_item:
+.. _etk-fields-field_get_item:
 
 ***************
  Field Get Item

@@ -1,5 +1,5 @@
 .. index:: Utilities; Vector Inject
-.. _etk.utilities.vector_inject:
+.. _etk-utilities-vector_inject:
 
 **************
  Vector Inject

@@ -1,5 +1,5 @@
 .. index:: Utilities; Displace Voronoi
-.. _etk.utilities.displace_voronoi:
+.. _etk-utilities-displace_voronoi:
 
 *****************
  Displace Voronoi

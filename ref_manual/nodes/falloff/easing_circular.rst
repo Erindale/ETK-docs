@@ -1,5 +1,5 @@
 .. index:: Falloff; Easing Circular
-.. _etk.falloff.easing_circular:
+.. _etk-falloff-easing_circular:
 
 ****************
  Easing Circular

@@ -1,5 +1,5 @@
 .. index:: Utilities; Force Size
-.. _etk.utilities.force_size:
+.. _etk-utilities-force_size:
 
 ***********
  Force Size

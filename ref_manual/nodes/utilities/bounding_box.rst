@@ -1,5 +1,5 @@
 .. index:: Utilities; Bounding Box
-.. _etk.utilities.bounding_box:
+.. _etk-utilities-bounding_box:
 
 *************
  Bounding Box

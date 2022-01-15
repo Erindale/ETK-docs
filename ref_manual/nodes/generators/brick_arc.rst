@@ -1,5 +1,5 @@
 .. index:: Generators; Brick Arc
-.. _etk.generators.brick_arc:
+.. _etk-generators-brick_arc:
 
 **********
  Brick Arc
@@ -16,8 +16,8 @@ standard half-brick offset between rows. We don’t have any analytical
 tools at the moment so you do have to write in your own brick size
 (for now).
 
-See also :ref:`etk.generators.brick_straight`,
-:ref:`etk.generators.brick_spline`.
+See also :ref:`etk-generators-brick_straight`,
+:ref:`etk-generators-brick_spline`.
 
 
 Inputs

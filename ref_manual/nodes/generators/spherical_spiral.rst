@@ -1,5 +1,5 @@
 .. index:: Generators; Spherical Spiral
-.. _etk.generators.spherical_spiral:
+.. _etk-generators-spherical_spiral:
 
 *****************
  Spherical Spiral

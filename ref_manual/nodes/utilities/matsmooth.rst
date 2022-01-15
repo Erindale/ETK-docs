@@ -1,5 +1,5 @@
 .. index:: Utilities; MatSmooth
-.. _etk.utilities.matsmooth:
+.. _etk-utilities-matsmooth:
 
 **********
  MatSmooth

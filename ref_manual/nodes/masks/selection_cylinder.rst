@@ -1,5 +1,5 @@
 .. index:: Masks; Selection Cylinder
-.. _etk.masks.selection_cylinder:
+.. _etk-masks-selection_cylinder:
 
 *******************
  Selection Cylinder

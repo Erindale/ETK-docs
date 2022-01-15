@@ -1,5 +1,5 @@
 .. index:: Generators; Spirograph
-.. _etk.generators.spirograph:
+.. _etk-generators-spirograph:
 
 ***********
  Spirograph

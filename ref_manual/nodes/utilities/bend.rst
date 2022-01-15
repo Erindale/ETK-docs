@@ -1,5 +1,5 @@
 .. index:: Utilities; Bend
-.. _etk.utilities.bend:
+.. _etk-utilities-bend:
 
 *****
  Bend

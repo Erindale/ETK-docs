@@ -1,5 +1,5 @@
 .. index:: Generators; UV Sphere
-.. _etk.generators.uv_sphere:
+.. _etk-generators-uv_sphere:
 
 **********
  UV Sphere

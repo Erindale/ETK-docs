@@ -1,5 +1,5 @@
 .. index:: Masks; Distance Cull
-.. _etk.masks.distance_cull:
+.. _etk-masks-distance_cull:
 
 **************
  Distance Cull

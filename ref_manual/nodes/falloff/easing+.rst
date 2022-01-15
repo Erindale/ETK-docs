@@ -1,5 +1,5 @@
 .. index:: Falloff; Easing+
-.. _etk.falloff.easing+:
+.. _etk-falloff-easing+:
 
 ********
  Easing+

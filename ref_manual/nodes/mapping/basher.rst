@@ -1,5 +1,5 @@
 .. index:: Mapping; Basher
-.. _etk.mapping.basher:
+.. _etk-mapping-basher:
 
 *******
  Basher

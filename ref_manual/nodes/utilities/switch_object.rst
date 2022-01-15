@@ -1,5 +1,5 @@
 .. index:: Utilities; Switch Object
-.. _etk.utilities.switch_object:
+.. _etk-utilities-switch_object:
 
 **************
  Switch Object

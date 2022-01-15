@@ -1,5 +1,5 @@
 .. index:: Utilities; Displace Texture
-.. _etk.utilities.displace_texture:
+.. _etk-utilities-displace_texture:
 
 *****************
  Displace Texture

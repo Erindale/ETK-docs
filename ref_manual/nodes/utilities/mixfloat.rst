@@ -1,5 +1,5 @@
 .. index:: Utilities; MixFloat
-.. _etk.utilities.mixfloat:
+.. _etk-utilities-mixfloat:
 
 *********
  MixFloat

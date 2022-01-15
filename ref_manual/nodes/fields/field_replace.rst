@@ -1,5 +1,5 @@
 .. index:: Fields; Field Replace
-.. _etk.fields.field_replace:
+.. _etk-fields-field_replace:
 
 **************
  Field Replace

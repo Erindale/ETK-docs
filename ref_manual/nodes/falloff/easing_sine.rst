@@ -1,5 +1,5 @@
 .. index:: Falloff; Easing Sine
-.. _etk.falloff.easing_sine:
+.. _etk-falloff-easing_sine:
 
 ************
  Easing Sine

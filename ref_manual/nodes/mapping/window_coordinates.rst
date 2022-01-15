@@ -1,5 +1,5 @@
 .. index:: Mapping; Window Coordinates
-.. _etk.mapping.window_coordinates:
+.. _etk-mapping-window_coordinates:
 
 *******************
  Window Coordinates

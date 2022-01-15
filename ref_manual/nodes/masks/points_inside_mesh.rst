@@ -1,5 +1,5 @@
 .. index:: Masks; Points Inside Mesh
-.. _etk.masks.points_inside_mesh:
+.. _etk-masks-points_inside_mesh:
 
 *******************
  Points Inside Mesh

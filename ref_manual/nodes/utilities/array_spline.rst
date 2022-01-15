@@ -1,5 +1,5 @@
 .. index:: Utilities; Array Spline
-.. _etk.utilities.array_spline:
+.. _etk-utilities-array_spline:
 
 *************
  Array Spline

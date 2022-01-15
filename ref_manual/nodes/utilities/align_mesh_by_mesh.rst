@@ -1,5 +1,5 @@
 .. index:: Utilities; Align Mesh by Mesh
-.. _etk.utilities.align_mesh_by_mesh:
+.. _etk-utilities-align_mesh_by_mesh:
 
 *******************
  Align Mesh by Mesh

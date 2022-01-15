@@ -1,5 +1,5 @@
 .. index:: Generators; Torus
-.. _etk.generators.torus:
+.. _etk-generators-torus:
 
 ******
  Torus

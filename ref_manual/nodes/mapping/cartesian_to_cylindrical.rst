@@ -1,5 +1,5 @@
 .. index:: Mapping; Cartesian to Cylindrical
-.. _etk.mapping.cartesian_to_cylindrical:
+.. _etk-mapping-cartesian_to_cylindrical:
 
 *************************
  Cartesian to Cylindrical

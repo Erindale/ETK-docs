@@ -1,5 +1,5 @@
 .. index:: Utilities; Stepped Transform
-.. _etk.utilities.stepped_transform:
+.. _etk-utilities-stepped_transform:
 
 ******************
  Stepped Transform

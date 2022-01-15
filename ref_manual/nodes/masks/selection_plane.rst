@@ -1,5 +1,5 @@
 .. index:: Masks; Selection Plane
-.. _etk.masks.selection_plane:
+.. _etk-masks-selection_plane:
 
 ****************
  Selection Plane

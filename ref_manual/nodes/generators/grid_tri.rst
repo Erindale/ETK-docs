@@ -1,5 +1,5 @@
 .. index:: Generators; Grid Tri
-.. _etk.generators.grid_tri:
+.. _etk-generators-grid_tri:
 
 *********
  Grid Tri

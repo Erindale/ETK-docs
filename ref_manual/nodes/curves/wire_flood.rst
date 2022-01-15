@@ -1,5 +1,5 @@
 .. index:: Curves; Wire Flood
-.. _etk.curves.wire_flood:
+.. _etk-curves-wire_flood:
 
 ***********
  Wire Flood

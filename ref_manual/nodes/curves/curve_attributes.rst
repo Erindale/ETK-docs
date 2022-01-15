@@ -1,5 +1,5 @@
 .. index:: Curves; Curve Attributes
-.. _etk.curves.curve_attributes:
+.. _etk-curves-curve_attributes:
 
 *****************
  Curve Attributes

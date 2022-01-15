@@ -1,5 +1,5 @@
 .. index:: Curves; Points to Bezier
-.. _etk.curves.points_to_bezier:
+.. _etk-curves-points_to_bezier:
 
 *****************
  Points to Bezier

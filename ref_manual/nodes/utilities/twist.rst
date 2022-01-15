@@ -1,5 +1,5 @@
 .. index:: Utilities; Twist
-.. _etk.utilities.twist:
+.. _etk-utilities-twist:
 
 ******
  Twist

@@ -1,5 +1,5 @@
 .. index:: Utilities; Copy on Points
-.. _etk.utilities.copy_on_points:
+.. _etk-utilities-copy_on_points:
 
 ***************
  Copy on Points

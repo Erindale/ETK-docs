@@ -1,5 +1,5 @@
 .. index:: Utilities; Switch Vector
-.. _etk.utilities.switch_vector:
+.. _etk-utilities-switch_vector:
 
 **************
  Switch Vector

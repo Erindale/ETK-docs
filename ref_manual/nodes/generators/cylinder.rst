@@ -1,5 +1,5 @@
 .. index:: Generators; Cylinder
-.. _etk.generators.cylinder:
+.. _etk-generators-cylinder:
 
 *********
  Cylinder

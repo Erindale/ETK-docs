@@ -1,5 +1,5 @@
 .. index:: Fields; Field Offset
-.. _etk.fields.field_offset:
+.. _etk-fields-field_offset:
 
 *************
  Field Offset

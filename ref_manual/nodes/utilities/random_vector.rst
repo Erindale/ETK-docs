@@ -1,5 +1,5 @@
 .. index:: Utilities; Random Vector
-.. _etk.utilities.random_vector:
+.. _etk-utilities-random_vector:
 
 **************
  Random Vector

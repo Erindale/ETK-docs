@@ -1,5 +1,5 @@
 .. index:: Generators; Brick Straight
-.. _etk.generators.brick_straight:
+.. _etk-generators-brick_straight:
 
 ***************
  Brick Straight
@@ -14,7 +14,7 @@ The **Brick Straight** group is for creating brick walls with a standard
 half-brick offset between rows. We don’t have any analytical tools at
 the moment so you do have to write in your own brick size (for now).
 
-See also :ref:`etk.generators.brick_arc`, :ref:`etk.generators.brick_spline`.
+See also :ref:`etk-generators-brick_arc`, :ref:`etk-generators-brick_spline`.
 
 Inputs
 =======

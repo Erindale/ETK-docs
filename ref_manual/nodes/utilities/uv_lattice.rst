@@ -1,5 +1,5 @@
 .. index:: Utilities; UV Lattice
-.. _etk.utilities.uv_lattice:
+.. _etk-utilities-uv_lattice:
 
 ***********
  UV Lattice

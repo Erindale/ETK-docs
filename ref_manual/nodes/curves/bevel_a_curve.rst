@@ -1,5 +1,5 @@
 .. index:: Curves; Bevel a Curve
-.. _etk.curves.bevel_a_curve:
+.. _etk-curves-bevel_a_curve:
 
 **************
  Bevel a Curve

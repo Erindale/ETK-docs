@@ -1,5 +1,5 @@
 .. index:: Masks; Selection Sphere
-.. _etk.masks.selection_sphere:
+.. _etk-masks-selection_sphere:
 
 *****************
  Selection Sphere

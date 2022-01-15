@@ -1,5 +1,5 @@
 .. index:: Generators; Purz
-.. _etk.generators.purz:
+.. _etk-generators-purz:
 
 *****
  Purz

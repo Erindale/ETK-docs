@@ -1,5 +1,5 @@
 .. index:: Utilities; Mesh to Instance
-.. _etk.utilities.mesh_to_instance:
+.. _etk-utilities-mesh_to_instance:
 
 *****************
  Mesh to Instance

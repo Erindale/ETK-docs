@@ -1,5 +1,5 @@
 .. index:: Utilities; Attribute to Instances
-.. _etk.utilities.attribute_to_instances:
+.. _etk-utilities-attribute_to_instances:
 
 ***********************
  Attribute to Instances

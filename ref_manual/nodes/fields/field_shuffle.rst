@@ -1,5 +1,5 @@
 .. index:: Fields; Field Shuffle
-.. _etk.fields.field_shuffle:
+.. _etk-fields-field_shuffle:
 
 **************
  Field Shuffle

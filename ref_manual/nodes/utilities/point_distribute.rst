@@ -1,5 +1,5 @@
 .. index:: Utilities; Point Distribute
-.. _etk.utilities.point_distribute:
+.. _etk-utilities-point_distribute:
 
 *****************
  Point Distribute

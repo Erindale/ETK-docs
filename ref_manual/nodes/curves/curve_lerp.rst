@@ -1,5 +1,5 @@
 .. index:: Curves; Curve Lerp
-.. _etk.curves.curve_lerp:
+.. _etk-curves-curve_lerp:
 
 ***********
  Curve Lerp

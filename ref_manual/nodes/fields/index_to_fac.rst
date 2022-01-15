@@ -1,5 +1,5 @@
 .. index:: Fields; Index to Fac
-.. _etk.fields.index_to_fac:
+.. _etk-fields-index_to_fac:
 
 *************
  Index to Fac

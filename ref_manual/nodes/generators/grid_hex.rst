@@ -1,5 +1,5 @@
 .. index:: Generators; Grid Hex
-.. _etk.generators.grid_hex:
+.. _etk-generators-grid_hex:
 
 *********
  Grid Hex

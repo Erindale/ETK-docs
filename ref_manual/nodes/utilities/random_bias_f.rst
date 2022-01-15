@@ -1,5 +1,5 @@
 .. index:: Utilities; Random Bias F
-.. _etk.utilities.random_bias_f:
+.. _etk-utilities-random_bias_f:
 
 **************
  Random Bias F

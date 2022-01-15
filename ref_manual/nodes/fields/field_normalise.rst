@@ -1,5 +1,5 @@
 .. index:: Fields; Field Normalise
-.. _etk.fields.field_normalise:
+.. _etk-fields-field_normalise:
 
 ****************
  Field Normalise

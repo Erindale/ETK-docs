@@ -1,5 +1,5 @@
 .. index:: Utilities; Render Switch
-.. _etk.utilities.render_switch:
+.. _etk-utilities-render_switch:
 
 **************
  Render Switch

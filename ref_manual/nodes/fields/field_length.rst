@@ -1,5 +1,5 @@
 .. index:: Fields; Field Length
-.. _etk.fields.field_length:
+.. _etk-fields-field_length:
 
 *************
  Field Length

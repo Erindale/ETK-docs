@@ -1,5 +1,5 @@
 .. index:: Mapping; Triplanar Blend
-.. _etk.mapping.triplanar_blend:
+.. _etk-mapping-triplanar_blend:
 
 ****************
  Triplanar Blend

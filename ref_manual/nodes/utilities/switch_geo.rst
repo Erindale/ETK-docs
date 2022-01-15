@@ -1,5 +1,5 @@
 .. index:: Utilities; Switch Geo
-.. _etk.utilities.switch_geo:
+.. _etk-utilities-switch_geo:
 
 ***********
  Switch Geo

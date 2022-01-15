@@ -1,5 +1,5 @@
 .. index:: Falloff; Easing Bounce
-.. _etk.falloff.easing_bounce:
+.. _etk-falloff-easing_bounce:
 
 **************
  Easing Bounce

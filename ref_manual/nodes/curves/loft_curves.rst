@@ -1,5 +1,5 @@
 .. index:: Curves; Loft Curves
-.. _etk.curves.loft_curves:
+.. _etk-curves-loft_curves:
 
 ************
  Loft Curves

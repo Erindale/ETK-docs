@@ -1,5 +1,5 @@
 .. index:: Utilities; Displace Noise
-.. _etk.utilities.displace_noise:
+.. _etk-utilities-displace_noise:
 
 ***************
  Displace Noise

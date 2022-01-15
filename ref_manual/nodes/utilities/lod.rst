@@ -1,5 +1,5 @@
 .. index:: Utilities; LOD
-.. _etk.utilities.lod:
+.. _etk-utilities-lod:
 
 ****
  LOD

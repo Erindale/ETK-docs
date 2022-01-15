@@ -1,5 +1,5 @@
 .. index:: Utilities; Array Linear
-.. _etk.utilities.array_linear:
+.. _etk-utilities-array_linear:
 
 *************
  Array Linear

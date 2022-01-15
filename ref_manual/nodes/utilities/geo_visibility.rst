@@ -1,5 +1,5 @@
 .. index:: Utilities; Geo Visibility
-.. _etk.utilities.geo_visibility:
+.. _etk-utilities-geo_visibility:
 
 ***************
  Geo Visibility
