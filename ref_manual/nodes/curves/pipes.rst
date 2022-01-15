@@ -1,5 +1,5 @@
 .. index:: Curves; Pipes
-.. _etk.curves.pipes:
+.. _etk-curves-pipes:
 
 ******
  Pipes
