@@ -10,6 +10,7 @@
 
    The ETK_Grid Hex node.
 
+The **Grid Hex** group forms a grid of hexagons.
 
 Inputs
 =======

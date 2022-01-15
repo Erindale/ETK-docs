@@ -10,7 +10,7 @@
 
    The ETK_Phyllotaxis node.
 
-The PHYLLOTAXIS group is great. Thanks to Benny Govaerts for
+The **Phyllotaxis** group is great. Thanks to Benny Govaerts for
 recommending I make this. Phyllotaxic spirals are the way that plants
 arrange leaves up a stem, or sunflower seeds on the flower head, or
 pine cone scales and many others. You can get some really beautiful
