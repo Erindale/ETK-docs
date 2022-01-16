@@ -30,12 +30,12 @@ def make_rst(top, node):
     rst_fname = base + '.rst'
     with open(rst_fname, 'w') as rst:
         rst.write('.. index:: {0}; {1}\n'.format(top, title))
-        rst.write('.. _etk.{0}.{1}:\n'.format(top.lower(), base))
+        rst.write('.. _etk-{0}-{1}:\n'.format(top.lower(), base))
         rst.write(chapter_heading(title))
         rst.write('.. figure:: /images/nodes-{0}.png\n'.format(base))
         rst.write('   :align: right\n\n')
         rst.write('   The {0} node.\n\n'.format(node))
-        rst.write('.. todo:: {0} node description.\n\n'.format(node))
+        rst.write('The  {0} group ...\n\n'.format(node))
         rst.write(section_heading('Inputs'))
         rst.write('Input1\n   Description of Input1\n')
         rst.write(section_heading('Properties'))
