@@ -10,46 +10,49 @@
 
    The ETK_Bevel a Curve node.
 
-.. todo:: ETK_Bevel a Curve node description.
-
+The **Bevel a Curve** group bevels a curve using a profile shape along
+a path. A curve for tapering influences the size of the profile as it
+is instanced along the path.
 
 Inputs
 =======
 
-Path Curve
-   Description of Input1
+|GEOMETRY| Path Curve
+   Bevel the curve along this path.
 
-Profile Curve
-   Description of Input1
+|GEOMETRY| Profile Curve
+   Along the path, use this curve as a profile.
 
-Taper Curve
-   Description of Input1
+|GEOMETRY| Taper Curve
+   Use this curve to influence the taper of the profile along the
+   curve.
 
-Resolution
-   Description of Input1
+|INTEGER_FIELD_SINGLE| Resolution
+   The output spline resolution.
 
-Tilt
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Tilt
+   The output curve tilt.
 
-Radius
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Radius
+   A multiplier of the taper along the path.
 
-Fill Caps
+|BOOLEAN| Fill Caps
    A boolean input, ticked to fill the end caps.
 
-
-Properties
-===========
-
-This node has no properties
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Mesh
+   The generated mesh.
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Bevel a Curve
+.. figure:: /images/nodes-bevel_a_curve_basic.png
+   :align: center
+   :width: 800
+
+   The **Bevel a Curve** group is used here to shape a horn using a
+   bezier segment to form the path, a bezier circle as a profile, and
+   another segment to taper the horn.
