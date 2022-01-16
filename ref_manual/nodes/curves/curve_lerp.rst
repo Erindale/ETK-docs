@@ -10,27 +10,42 @@
 
    The ETK_Curve Lerp node.
 
-.. todo:: ETK_Curve Lerp node description.
+The **Curve Lerp** group uses the process of linear interpolation to
+construct a new curve from two input curves.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Curve1
+   The first input curve.
 
-Properties
-===========
+|GEOMETRY| Curve2
+   The second input curve.
 
-This node has no properties
+|INTEGER_FIELD_SINGLE| Resolution
+   The resolution to use for the generated curve.
+
+|FLOAT_FIELD_SINGLE| Fac
+   Can be used to favor the first input curve (0) or the second (1).
+
+|BOOLEAN| Poly / Bezier
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Curve
+   The interpolated curve.
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Curve Lerp
+.. figure:: /images/nodes-curve_lerp_basic.png
+   :align: center
+   :width: 800
+
+   Using **Curve Lerp**, interpolate between two circles, one rotated
+   90° on one axis. The input curves use thinner
+   :ref:`etk-curves-pipes` to differentiate them from the interpolated
+   geometry.

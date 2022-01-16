@@ -10,25 +10,38 @@
 
    The ETK_Curve Attributes node.
 
-.. todo:: ETK_Curve Attributes node description.
-
+The **Curve** group is a convenience node that can be used in a
+node pipeline to set various attributes on a curve and also access the
+length of the curve.
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Curve
+   The input curve.
 
-Properties
-===========
+|INTEGER_FIELD_SINGLE| Resolution
+   Set the resolution on the output curve.
 
-This node has no properties
+|FLOAT_FIELD_SINGLE| Radius
+   Set the radius on the output curve.
+
+|FLOAT_FIELD_SINGLE| Tilt
+   Set the tilt on the output curve.
+
+|BOOLEAN_FIELD_SINGLE| Cyclic
+   Set the output curve to cyclic if checked.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Curve
+   The output geometry.
+
+|FLOAT| Length
+   The length of the curve.
+
 
 Example Usage
 ==============
