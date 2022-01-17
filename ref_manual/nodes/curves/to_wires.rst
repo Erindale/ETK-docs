@@ -10,25 +10,41 @@
 
    The ETK_To Wires node.
 
-.. todo:: ETK_To Wires node description.
+The **To Wires** group converts a geometry to a wireframe.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
 
-Properties
-===========
+|BOOLEAN_FIELD_SINGLE| Selection
 
-This node has no properties
+|INTEGER| Count
+
+|FLOAT_FIELD_SINGLE| Drop Distance
+
+|FLOAT_FIELD_SINGLE| Deviation
+
+|INTEGER_FIELD_SINGLE| Seed
+
+|INTEGER_FIELD_SINGLE| Wire Resolution
+   The number of segments in the wire.
+
+|INTEGER_FIELD_SINGLE| Profile Resolution
+   The profile of the wire.
+
+|FLOAT| Profile Radius
+   The radius of the wire.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Mesh
+
+|GEOMETRY| Curve
+
 
 Example Usage
 ==============
