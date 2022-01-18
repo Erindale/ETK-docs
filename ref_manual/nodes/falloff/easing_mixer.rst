@@ -10,27 +10,46 @@
 
    The ETK_Easing Mixer node.
 
-.. todo:: ETK_Easing Mixer node description.
+The **Easing Mixer** group allows the user to mix transitions between
+two falloff functions.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD| 0..1
+   The input value in the range of 0..1.
 
-Properties
-===========
+|BOOLEAN_FIELD_SINGLE| Ease In
+   Apply the function to the start of the range.
 
-This node has no properties
+|BOOLEAN_FIELD_SINGLE| Ease Out
+   Apply the function to the last half of the range.
+
+|FLOAT_FIELD_SINGLE| Blend
+   Blend between the two input functions.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Value
+   The output with the falloff function applied.
+
 
 Example Usage
-==============
+=============
 
-.. todo:: Add example for ETK_Easing Mixer
+
+Easing Sine in, Elastic out
+---------------------------
+
+By way of example, the two falloff functions,
+:ref:`etk-falloff-easing_sine` and
+:ref:`etk-falloff-easing_elastic` are mixed at 50%.
+
+.. figure:: /images/nodes-easing_mixer_basic.png
+   :align: center
+   :width: 800
+
+   Mix between Sine easing in and Elastic out.

@@ -10,27 +10,43 @@
 
    The ETK_Easing Circular node.
 
-.. todo:: ETK_Easing Circular node description.
+The **Easing Circular** group employs a partial circle function to
+ease the transition.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD| 0..1
+   The input value in the range of 0..1.
 
-Properties
-===========
+|BOOLEAN_FIELD_SINGLE| Ease In
+   Apply the function to the start of the range.
 
-This node has no properties
+|BOOLEAN_FIELD_SINGLE| Ease Out
+   Apply the function to the last half of the range.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Value
+   The output with the falloff function applied.
 
-Example Usage
-==============
 
-.. todo:: Add example for ETK_Easing Circular
+Function Graphs
+===============
+
+Since Falloff group nodes apply a function across a range, it is
+useful to visualize the working of the node with a graph. The graphs
+were built using this :ref:`falloff_graph`.
+
+.. list-table:: Easing Circular function graphs
+   :align: center
+
+   * - .. image:: /images/nodes-easing_circular_both.png
+     - .. image:: /images/nodes-easing_circular_in.png
+     - .. image:: /images/nodes-easing_circular_out.png
+   * - **Ease In** and **Ease Out** checked.
+     - **Ease In** only.
+     - **Ease Out** only.
