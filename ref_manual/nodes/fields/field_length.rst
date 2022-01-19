@@ -10,27 +10,30 @@
 
    The ETK_Field Length node.
 
-.. todo:: ETK_Field Length node description.
+The **Field Length** group obtains the length of the list of vertices
+from a geometry.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
-
-Properties
-===========
-
-This node has no properties
+|GEOMETRY| Geometry
+   The geometry on which to find its vertex list length.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|INTEGER| Length
+   The number of vertices in the geometry.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Field Length
+.. figure:: /images/nodes-field_length_basic.png
+   :align: center
+   :width: 800
+
+   A long-winded example that find the length of a grid, retrieved from
+   a **Field Length** group, and displays it below the geometry as a
+   string.

@@ -10,27 +10,39 @@
 
    The ETK_Field Get Item node.
 
-.. todo:: ETK_Field Get Item node description.
+The **Field Get Item** group retrieves a field value, an *Item*, at a
+specific *Index*.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+   The geometry on which to retrieve the *Item*.
 
-Properties
-===========
+|VECTOR_FIELD_SINGLE| Field
+   The field to retrieve.
 
-This node has no properties
+|INTEGER_FIELD_SINGLE| Index
+   Retrieve the field at this index.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Item
+   The value of the selected field at the given index.
+
+|INTEGER_FIELD_SINGLE| Index
+   Access to the *Index* of the retrieved item.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Field Get Item
+.. figure:: /images/nodes-field_get_item_basic.png
+   :align: center
+   :width: 800
+
+   Using the **Field Get Item** group to retrieve the position of a
+   Grid position (Index 10) and instance a small cube at that
+   location. Note the use of the :ref:`etk-generators-vertex` group.
