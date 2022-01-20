@@ -10,27 +10,27 @@
 
    The ETK_Field Offset node.
 
-.. todo:: ETK_Field Offset node description.
+The **Field Offset** group ...
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
 
-Properties
-===========
+|VECTOR_FIELD_SINGLE| Field
 
-This node has no properties
+|INTEGER_FIELD_SINGLE| Index Offset
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Field
+   The modified field.
 
-Example Usage
-==============
+
+Examples
+========
 
 .. todo:: Add example for ETK_Field Offset

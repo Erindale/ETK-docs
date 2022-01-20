@@ -10,25 +10,26 @@
 
    The ETK_Field Normalise node.
 
-.. todo:: ETK_Field Normalise node description.
+The **Field Normalise** group takes a vector field and maps all
+vectors to a length between 0 and 1.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+   The geometry on which to read the *Field*.
 
-Properties
-===========
+|VECTOR_FIELD_SINGLE| Field
+   The vector rield value to normalise.
 
-This node has no properties
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Field
+   The normalised output.
+
 
 Example Usage
 ==============
