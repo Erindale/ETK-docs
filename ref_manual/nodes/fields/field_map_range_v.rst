@@ -10,27 +10,40 @@
 
    The ETK_Field Map Range V node.
 
-.. todo:: ETK_Field Map Range V node description.
+The **Field Map Range V** group takes a vector field of a geometry and
+maps it to new vector. See also :ref:`etk-fields-field_map_range_f`.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+   The geometry to use for values to map.
 
-Properties
-===========
+|VECTOR_FIELD_SINGLE| Value
+   The vector value to map.
 
-This node has no properties
+|VECTOR_FIELD_SINGLE| To Min
+   Use this value as a minimum for input *Value*.
+
+|VECTOR_FIELD_SINGLE| To Max
+   Use this value as a maximum for input *Value*.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Result
+   Remapped vector output.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Field Map Range V
+.. figure:: /images/nodes-map_range_v_basic.png
+   :align: center
+   :width: 800
+
+   The **Field Map Range V** group is used here to remap the position
+   vectors of one curve into a smaller curve then joined into a
+   shape with a :ref:`etk-curves-loft_curves` group.

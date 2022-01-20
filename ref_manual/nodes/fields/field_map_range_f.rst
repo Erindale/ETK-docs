@@ -10,27 +10,33 @@
 
    The ETK_Field Map Range F node.
 
-.. todo:: ETK_Field Map Range F node description.
+The **Field Map Range F** group takes a float input field and maps
+that value to a new result. See also :ref:`etk-fields-field_map_range_v`.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+   The geometry to use for values to map.
 
-Properties
-===========
+|FLOAT_FIELD_SINGLE| Value
+   The float field value to map.
 
-This node has no properties
+|FLOAT_FIELD_SINGLE| To Min
+   Use this value as a minimum for input *Value*.
+
+|FLOAT_FIELD_SINGLE| To Max
+   Use this value as a maximum for input *Value*.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Result
+   Field for mapped values.
+
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Field Map Range F
+.. todo:: Needs an example that doesn't look like Index_to_Fac.

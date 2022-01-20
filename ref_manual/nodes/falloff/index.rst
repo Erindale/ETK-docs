@@ -11,8 +11,7 @@ application for these falloff nodes, particularly in animation.
 
 .. _falloff_graph:
 
-Falloff Graph Node Group
-------------------------
+.. rubric:: Node group for Falloff examples
 
 Instead of an example on each node, a graph of the function is
 presented. The node group used to build the graph is presented here
@@ -24,7 +23,6 @@ for reference.
 
    Using a mesh line in X, constrained between our desired 0..1 range,
    is used to demonstrate the **Falloff** group nodes.
-
 
 .. toctree::
    :maxdepth: 1

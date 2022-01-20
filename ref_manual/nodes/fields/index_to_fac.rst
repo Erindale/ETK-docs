@@ -10,27 +10,29 @@
 
    The ETK_Index to Fac node.
 
-.. todo:: ETK_Index to Fac node description.
-
+The **Index to Fac** group takes a geometry as input and maps the
+index to a 0..1 range on the output.
 
 Inputs
 =======
 
-Input1
-   Description of Input1
-
-Properties
-===========
-
-This node has no properties
+|GEOMETRY| Geometry
+   Geometry in which the index will be found.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Fac
+   A 0..1 gradient representing the indices.
 
 Example Usage
 ==============
 
-.. todo:: Add example for ETK_Index to Fac
+.. figure:: /images/nodes-index_to_fac_basic.png
+   :align: center
+   :width: 800
+
+   Using the **Index to Fac** group to recreate the
+   :ref:`etk-falloff-easing_back` example. One advantage here is that
+   the mesh line can be configured with *End Points* so resolution is
+   more intuitive to configure.
