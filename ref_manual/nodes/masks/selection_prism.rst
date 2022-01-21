@@ -10,21 +10,32 @@
 
    The ETK_Selection Prism node.
 
-Selection Prism group description.
+The **Selection Prism** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER| Sides
+
+|FLOAT| Radius
+
+|VECTOR_FIELD_SINGLE| Centre
+
+|VECTOR_FIELD_SINGLE| Rotation
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD| Inside
+
+|BOOLEAN_FIELD| Outside
+
+|FLOAT_FIELD| SDF
+
+|GEOMETRY| Preview
+
 
 Examples
 ========

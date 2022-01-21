@@ -10,21 +10,26 @@
 
    The ETK_Selection Plane node.
 
-Selection Plane group description.
+The **Selection Plane** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Centre
 
+|VECTOR_FIELD_SINGLE| Up
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD| Inside
+
+|BOOLEAN_FIELD| Outside
+
+|FLOAT_FIELD| SDF
+
+|GEOMETRY| Preview
 
 Examples
 ========

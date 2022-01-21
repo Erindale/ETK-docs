@@ -10,21 +10,28 @@
 
    The ETK_Distance Cull node.
 
-Distance Cull group description.
+The **Distance Cull** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|OBJECT| Object
+
+|FLOAT_FIELD_SINGLE| Distance
+
+|FLOAT_FIELD_SINGLE| Falloff
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD| Inside
+
+|BOOLEAN_FIELD| Outside
+
+|FLOAT_FIELD| SDF
+
 
 Examples
 ========

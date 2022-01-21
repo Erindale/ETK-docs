@@ -10,21 +10,25 @@
 
    The ETK_Points Inside Mesh node.
 
-Points Inside Mesh group description.
+The **Points Inside Mesh** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+
+|INTEGER| Accuracy
+
+|BOOLEAN_FIELD_SINGLE| Backface Check
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD_SINGLE| Fast
+
+|BOOLEAN_FIELD_SINGLE| Full
 
 Examples
 ========

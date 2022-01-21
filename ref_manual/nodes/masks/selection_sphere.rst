@@ -10,21 +10,28 @@
 
    The ETK_Selection Sphere node.
 
-Selection Sphere group description.
+The **Selection Sphere** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT| Radius
+
+|VECTOR| Centre
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD| Inside
+
+|BOOLEAN_FIELD| Outside
+
+|FLOAT_FIELD| SDF
+
+|GEOMETRY| Preview
+
 
 Examples
 ========

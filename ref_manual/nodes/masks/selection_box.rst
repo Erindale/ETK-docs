@@ -10,21 +10,31 @@
 
    The ETK_Selection Box node.
 
-Selection Box group description.
+The **Selection Box** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Centre
 
+|VECTOR_FIELD_SINGLE| Size
+
+|VECTOR_FIELD_SINGLE| Rotation
+
+|FLOAT_FIELD_SINGLE| Round Corner
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD| Inside
+
+|BOOLEAN_FIELD| Outside
+
+|FLOAT_FIELD| SDF
+
+|GEOMETRY| Preview
+
 
 Examples
 ========

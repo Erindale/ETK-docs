@@ -10,21 +10,26 @@
 
    The ETK_Selection Normals node.
 
-Selection Normals group description.
+The **Selection Normals** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Vector
+
+|FLOAT_FIELD_SINGLE| Deviation
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|BOOLEAN_FIELD| Inside
+
+|BOOLEAN_FIELD| Outside
+
+|FLOAT_FIELD| Fac
+
 
 Examples
 ========
