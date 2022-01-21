@@ -10,21 +10,25 @@
 
    The ETK_Triplanar Blend node.
 
-Triplanar Blend group description.
+The **Triplanar Blend** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|COLOR_FIELD_SINGLE| X Axis
+
+|COLOR_FIELD_SINGLE| Y Axis
+
+|COLOR_FIELD_SINGLE| Z Axis
+
+|FLOAT_FIELD_SINGLE| Blend
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|COLOR_FIELD| Color
 
 Examples
 ========

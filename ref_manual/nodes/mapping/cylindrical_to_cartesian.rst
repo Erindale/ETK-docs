@@ -10,21 +10,22 @@
 
    The ETK_Cylindrical to Cartesian node.
 
-Cylindrical to Cartesian group description.
-
+The **Cylindrical to Cartesian** group converts cylindrical
+coordinates to cartesian coordinates.
+See also :ref:`etk-mapping-cartesian_to_cylindrical`.
 
 Inputs
 =======
 
-Input1
-   Description of Input1
-
+|FLOAT_FIELD_SINGLE| (r,θ,z)
+   The cylindrical coordinates to convert.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| (x,y,z)
+   The resulting cartesian coordinates.
+
 
 Examples
 ========

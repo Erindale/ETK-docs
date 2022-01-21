@@ -10,21 +10,23 @@
 
    The ETK_Looping Coordinates node.
 
-Looping Coordinates group description.
+The **Looping Coordinates** group ...
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD_SINGLE| X Wavelength
 
+|FLOAT_FIELD_SINGLE| Y Wavelength
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Vector
+
+|INTEGER_FIELD| W
+
 
 Examples
 ========

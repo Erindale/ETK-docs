@@ -10,21 +10,28 @@
 
    The ETK_Mapping node.
 
-Mapping group description.
+The **Mapping** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Vector
+   The input vector to map.
 
+|VECTOR_FIELD_SINGLE| Translation
+
+|VECTOR_FIELD_SINGLE| Rotation
+
+|VECTOR_FIELD_SINGLE| Scale
+
+|BOOLEAN_FIELD_SINGLE| Invert
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Vector
+   The resulting output vector.
 
 Examples
 ========

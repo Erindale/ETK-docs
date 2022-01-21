@@ -10,7 +10,7 @@
 
    The ETK_Triplanar node.
 
-Triplanar group description.
+The **Triplanar** group description.
 
 
 Inputs
@@ -23,8 +23,14 @@ Input1
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Triplanar
+
+|VECTOR_FIELD| X Axis
+
+|VECTOR_FIELD| Y Axis
+
+|VECTOR_FIELD| Z Axis
+
 
 Examples
 ========

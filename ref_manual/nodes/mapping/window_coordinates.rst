@@ -10,21 +10,26 @@
 
    The ETK_Window Coordinates node.
 
-Window Coordinates group description.
+The **Window Coordinates** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|OBJECT| Camera
+
+|FLOAT_FIELD_SINGLE| Camera FOV
+
+|INTEGER_FIELD_SINGLE| Resolution X
+
+|INTEGER_FIELD_SINGLE| Resolution Y
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Vector
+
 
 Examples
 ========

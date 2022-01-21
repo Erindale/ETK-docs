@@ -104,16 +104,20 @@ rst_prolog = """
 .. |GEOMETRY| image:: /images/nodes-socket_geometry.svg
 .. |BOOLEAN_FIELD| image:: /images/nodes-socket_boolean_field.svg
 .. |BOOLEAN_FIELD_SINGLE| image:: /images/nodes-socket_boolean_field_single.svg
-.. |BOOLEAN| image:: /images/nodes-socket_boolean_single.svg
+.. |BOOLEAN| image:: /images/nodes-socket_boolean.svg
 .. |FLOAT_FIELD| image:: /images/nodes-socket_float_field.svg
 .. |FLOAT_FIELD_SINGLE| image:: /images/nodes-socket_float_field_single.svg
-.. |FLOAT| image:: /images/nodes-socket_float_single.svg
+.. |FLOAT| image:: /images/nodes-socket_float.svg
 .. |INTEGER_FIELD| image:: /images/nodes-socket_integer_field.svg
 .. |INTEGER_FIELD_SINGLE| image:: /images/nodes-socket_integer_field_single.svg
-.. |INTEGER| image:: /images/nodes-socket_integer_single.svg
+.. |INTEGER| image:: /images/nodes-socket_integer.svg
 .. |VECTOR_FIELD| image:: /images/nodes-socket_vector_field.svg
 .. |VECTOR_FIELD_SINGLE| image:: /images/nodes-socket_vector_field_single.svg
-.. |VECTOR| image:: /images/nodes-socket_vector_single.svg
+.. |VECTOR| image:: /images/nodes-socket_vector.svg
+.. |IMAGE| image:: /images/nodes-socket_image.svg
+.. |COLOR| image:: /images/nodes-socket_color.svg
+.. |COLOR_FIELD| image:: /images/nodes-socket_color_field.svg
+.. |COLOR_FIELD_SINGLE| image:: /images/nodes-socket_color_field_single.svg
 """ % etk_version
 
 rst_epilog = """

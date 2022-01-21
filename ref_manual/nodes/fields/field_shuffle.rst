@@ -10,21 +10,24 @@
 
    The ETK_Field Shuffle node.
 
-Field Shuffle group description.
+The Field Shuffle group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
 
+|VECTOR_FIELD_SINGLE| Field
+
+|INTEGER_FIELD_SINGLE| Seed
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Field
+
+.. caution:: Expect data loss.
 
 Examples
 ========

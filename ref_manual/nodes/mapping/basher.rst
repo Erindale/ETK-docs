@@ -16,15 +16,33 @@ Basher group description.
 Inputs
 =======
 
-Input1
-   Description of Input1
+|IMAGE| Image
 
+|FLOAT_FIELD_SINGLE| Scale
+
+|FLOAT_FIELD_SINGLE| Triplanar Edge
+
+|FLOAT_FIELD_SINGLE| Cell Edges
+
+|FLOAT_FIELD_SINGLE| Falloff
+
+|FLOAT_FIELD_SINGLE| Cell Rand
+
+|FLOAT_FIELD_SINGLE| Rotation Rand
+
+|FLOAT_FIELD_SINGLE| Hide Seams
+
+|INTEGER_FIELD_SINGLE| Seed
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|COLOR_FIELD| Fast
+
+|COLOR_FIELD| Blended
+
+|FLOAT_FIELD_SINGLE| Scale
+
 
 Examples
 ========

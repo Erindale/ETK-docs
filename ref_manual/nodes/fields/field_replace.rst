@@ -16,15 +16,16 @@ Field Replace group description.
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Field Original
 
+|FLOAT_FIELD_SINGLE| Field New
+
+|BOOLEAN_FIELD_SINGLE| Mask
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Field
 
 Examples
 ========

@@ -10,21 +10,33 @@
 
    The ETK_Space Converter node.
 
-Space Converter group description.
+The **Space Converter** group is the Swiss army knife of coordinate
+converters that will convert between any of three coordinate systems.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Vector
+   The input vector.
 
+|INTEGER_FIELD_SINGLE| Cart|Cyl|Sp
+   An enumerated value of 0, 1, or 2, that matches the input vector
+   coordinate system,
+   * 0, the default, cartesian coordinates
+   * 1 cylindrical
+   * spherical
+
+|INTEGER_FIELD_SINGLE| Cart|Cyl|Sp
+   An enumerated value of 0, 1, or 2, to specify the output coordinate
+   system.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Vector
+   The resulting output vector.
+
 
 Examples
 ========

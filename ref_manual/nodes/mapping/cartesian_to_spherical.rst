@@ -10,21 +10,23 @@
 
    The ETK_Cartesian to Spherical node.
 
-Cartesian to Spherical group description.
+The **Cartesian to Spherical** group converts cartesian vector
+coordinates to spherical coordinates.
+See also :ref:`etk-mapping-spherical_to_cartesian`.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
-
+|FLOAT_FIELD_SINGLE| (x,y,z)
+   The cartesian coordinates to convert.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| (r,θ,φ)
+   The resulting spherical coordinates.
+
 
 Examples
 ========
