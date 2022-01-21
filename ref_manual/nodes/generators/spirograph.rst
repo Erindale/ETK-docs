@@ -62,8 +62,8 @@ Outputs
    A rotation vector for each point.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. image:: /images/nodes-spirograph_basic.png
            :align: center

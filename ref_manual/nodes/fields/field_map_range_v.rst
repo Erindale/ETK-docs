@@ -37,8 +37,8 @@ Outputs
    Remapped vector output.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-map_range_v_basic.png
    :align: center

@@ -61,7 +61,7 @@ Outputs
 |GEOMETRY| Geometry
    The generated geometry.
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_Purz

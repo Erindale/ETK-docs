@@ -36,8 +36,8 @@ Outputs
 |GEOMETRY| Mesh
    The output mesh.
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-pipes_basic.png
    :align: center

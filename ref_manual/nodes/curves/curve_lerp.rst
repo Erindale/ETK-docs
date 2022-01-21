@@ -38,8 +38,8 @@ Outputs
 |GEOMETRY| Curve
    The interpolated curve.
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-curve_lerp_basic.png
    :align: center

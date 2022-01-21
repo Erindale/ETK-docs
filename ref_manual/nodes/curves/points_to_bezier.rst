@@ -34,8 +34,8 @@ Outputs
    The generated curve.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-points_to_bezier_basic.png
    :align: center

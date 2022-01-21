@@ -69,8 +69,8 @@ Outputs
     A 0-1 gradient across the points in the Y axis.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-brick_straight_basic.png
    :align: center

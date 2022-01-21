@@ -27,8 +27,8 @@ Outputs
    The number of vertices in the geometry.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-field_length_basic.png
    :align: center

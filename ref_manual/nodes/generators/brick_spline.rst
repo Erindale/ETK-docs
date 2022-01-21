@@ -67,8 +67,8 @@ Outputs
     The rotation vector of each brick.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-brick_spline_basic.png
    :align: center

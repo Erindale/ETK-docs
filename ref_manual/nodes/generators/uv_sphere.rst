@@ -59,8 +59,8 @@ Outputs
    The rotation vector for each point.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-uv_sphere_basic.png
    :align: center

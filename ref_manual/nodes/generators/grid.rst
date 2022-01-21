@@ -65,8 +65,8 @@ Outputs
     A 0-1 gradient across the points in the Z axis.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-grid_basic.png
    :width: 800

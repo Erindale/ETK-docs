@@ -15,7 +15,7 @@ specific *Index*.
 
 
 Inputs
-=======
+======
 
 |GEOMETRY| Geometry
    The geometry on which to retrieve the *Item*.
@@ -27,7 +27,7 @@ Inputs
    Retrieve the field at this index.
 
 Outputs
-========
+=======
 
 |VECTOR_FIELD_SINGLE| Item
    The value of the selected field at the given index.
@@ -37,7 +37,7 @@ Outputs
 
 
 Example Usage
-==============
+=============
 
 .. figure:: /images/nodes-field_get_item_basic.png
    :align: center

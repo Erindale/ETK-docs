@@ -55,8 +55,8 @@ Outputs
 |GEOMETRY| Geometry
    The generated mass of wire geometry.
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-wire_flood_basic.png
    :align: center

@@ -46,8 +46,8 @@ Outputs
 |GEOMETRY| Mesh
    The generated mesh.
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-bevel_a_curve_basic.png
    :align: center

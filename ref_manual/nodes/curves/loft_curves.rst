@@ -76,8 +76,8 @@ Outputs
    A rotation vector for each point.
 
 
-Example Usage
-==============
+Examples
+========
 
 A 3 Curve Loft
 --------------

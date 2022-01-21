@@ -55,8 +55,8 @@ Outputs
    The rotation vector of each hexagonal tile.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-grid_hex_basic.png
    :align: center

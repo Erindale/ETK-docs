@@ -43,7 +43,7 @@ Outputs
    The length of the curve.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_Curve Attributes

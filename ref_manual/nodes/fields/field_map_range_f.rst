@@ -36,7 +36,7 @@ Outputs
    Field for mapped values.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Needs an example that doesn't look like Index_to_Fac.

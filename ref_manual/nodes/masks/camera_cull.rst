@@ -57,7 +57,7 @@ Outputs
    Description of Mask
 
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_Camera Cull

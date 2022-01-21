@@ -78,8 +78,8 @@ Outputs
    Rotation vector for each point.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-torus_basic.png
    :align: center

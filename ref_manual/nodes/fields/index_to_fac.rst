@@ -25,8 +25,8 @@ Outputs
 |FLOAT_FIELD_SINGLE| Fac
    A 0..1 gradient representing the indices.
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-index_to_fac_basic.png
    :align: center

@@ -10,7 +10,7 @@
 
    The ETK_Space Converter node.
 
-.. todo:: ETK_Space Converter node description.
+Space Converter group description.
 
 
 Inputs
@@ -19,10 +19,6 @@ Inputs
 Input1
    Description of Input1
 
-Properties
-===========
-
-This node has no properties
 
 Outputs
 ========
@@ -30,7 +26,7 @@ Outputs
 Output1
    Description of Output1
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_Space Converter

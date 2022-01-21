@@ -51,8 +51,8 @@ Outputs
    The rotation vector for each vertex.
 
 
-Example Usage
-==============
+Examples
+========
 
 Line vs. Segment
 ----------------

@@ -31,7 +31,7 @@ Outputs
    The normalised output.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_Field Normalise

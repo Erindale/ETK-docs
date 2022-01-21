@@ -58,8 +58,8 @@ Outputs
    Exposes the rotation vector for each vertex.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-phyllotaxis_basic.png
    :align: center

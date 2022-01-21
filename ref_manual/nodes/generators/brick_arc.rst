@@ -84,8 +84,8 @@ Outputs
     A rotation vector for each brick in the wall.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-brick_arc_basic.png
    :align: center

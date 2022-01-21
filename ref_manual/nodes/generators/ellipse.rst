@@ -67,8 +67,8 @@ Outputs
     A rotation vector of the point to the centre of the ellipse.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-ellipse_basic.png
    :align: center

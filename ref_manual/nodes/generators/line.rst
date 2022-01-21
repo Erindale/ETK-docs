@@ -46,8 +46,8 @@ Outputs
 |VECTOR_FIELD_SINGLE| Rotation
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-line_basic.png
    :align: center

@@ -46,7 +46,7 @@ Outputs
 |GEOMETRY| Curve
 
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_To Wires

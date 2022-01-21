@@ -53,8 +53,8 @@ Outputs
    A rotation vector at each point.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-spherical_sphere_basic.png
    :align: center

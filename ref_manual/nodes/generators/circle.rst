@@ -52,8 +52,8 @@ Outputs
 |VECTOR_FIELD| Rotation
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-circle_basic.png
    :align: center

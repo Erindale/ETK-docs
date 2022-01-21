@@ -74,8 +74,8 @@ Outputs
    Provides access to the rotation vector of each vertex.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-cylinder_basic.png
    :align: center

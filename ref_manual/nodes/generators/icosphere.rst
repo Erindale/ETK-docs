@@ -57,8 +57,8 @@ Outputs
    The rotation vector for each generated point.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-icosphere_basic.png
    :align: center

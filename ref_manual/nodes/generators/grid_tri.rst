@@ -64,8 +64,8 @@ Outputs
    The rotation vector of each tile.
 
 
-Example Usage
-==============
+Examples
+========
 
 .. figure:: /images/nodes-grid_tri_basic.png
    :align: center
