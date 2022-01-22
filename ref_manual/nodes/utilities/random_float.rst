@@ -10,26 +10,37 @@
 
    The ETK_Random Float node.
 
-The **Random Float** group description.
+The **Random Float** group generates a random float value based on an
+input value and deviation.
 
 
 Inputs
 =======
 
 |FLOAT_FIELD_SINGLE| Value
+   The input value.
 
 |FLOAT_FIELD_SINGLE| Deviation
+   Generate a float that is plus or minus this amount from the input
+   *Value*.
 
 |INTEGER_FIELD_SINGLE| Seed
+   Randomization seed.
 
 
 Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| Value
+   The generated random float value.
 
 
 Examples
 ========
 
-.. todo:: Add example for ETK_Random Float
+.. figure:: /images/nodes-random_float_basic.png
+   :align: center
+   :width: 800
+
+   Creating a wobbly sphere with the **Random Float** and **UV
+   Sphere** node, which allows a field input on *Radius*.
