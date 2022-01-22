@@ -10,21 +10,24 @@
 
    The ETK_Random Vector node.
 
-Random Vector group description.
+The **Random Vector* group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Vector
+
+|VECTOR_FIELD_SINGLE| Deviation
+
+|INTEGER_FIELD_SINGLE| Seed
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Vector
+
 
 Examples
 ========

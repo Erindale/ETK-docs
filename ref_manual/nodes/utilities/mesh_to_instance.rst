@@ -10,21 +10,22 @@
 
    The ETK_Mesh to Instance node.
 
-Mesh to Instance group description.
+The **Mesh to Instance** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+
+|BOOLEAN| Reset Position
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instance
+
 
 Examples
 ========

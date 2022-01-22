@@ -10,21 +10,24 @@
 
    The ETK_MatSmooth node.
 
-MatSmooth group description.
+The **MatSmooth** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|MATERIAL| Material
+
+|BOOLEAN_FIELD_SINGLE| Shade Smooth
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

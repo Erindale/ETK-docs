@@ -16,15 +16,15 @@ Displace Texture group description.
 Inputs
 =======
 
-Input1
-   Description of Input1
+
+   Description of 
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+
+   Description of 
 
 Examples
 ========

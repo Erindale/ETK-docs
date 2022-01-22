@@ -10,21 +10,36 @@
 
    The ETK_Stepped Transform node.
 
-Stepped Transform group description.
+The **Stepped Transform** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|FLOAT_FIELD_SINGLE| Custom Fac
+
+|COLLECTION| Instances
+
+|GEOMETRY| Instance Geometry (alt)
+
+|BOOLEAN_FIELD_SINGLE| Per Step
+
+|VECTOR_FIELD_SINGLE| Translation
+
+|VECTOR_FIELD_SINGLE| Rotation
+
+|VECTOR_FIELD_SINGLE| Scale
+
+|BOOLEAN_FIELD_SINGLE| Compound Scaling
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instances
+
 
 Examples
 ========

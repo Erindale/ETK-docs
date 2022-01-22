@@ -10,21 +10,24 @@
 
    The ETK_Switch Geo node.
 
-Switch Geo group description.
+The **Switch Geo** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER| Index
+
+|GEOMETRY| 0
+
+|GEOMETRY| 1 through 9
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+Geometry
+
 
 Examples
 ========

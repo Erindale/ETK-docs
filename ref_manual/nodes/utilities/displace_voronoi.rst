@@ -10,21 +10,30 @@
 
    The ETK_Displace Voronoi node.
 
-Displace Voronoi group description.
+The **Displace Voronoi** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|FLOAT_FIELD_SINGLE| Strength
+
+|FLOAT_FIELD_SINGLE| Midlevel
+
+|VECTOR_FIELD_SINGLE| Voronoi Coordinates
+
+|FLOAT_FIELD_SINGLE| Scale
+
+|FLOAT_FIELD_SINGLE| Randomness
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

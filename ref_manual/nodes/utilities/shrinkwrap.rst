@@ -10,21 +10,28 @@
 
    The ETK_Shrinkwrap node.
 
-Shrinkwrap group description.
+The **Shrinkwrap** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|OBJECT| Target
+
+|GEOMETRY| Target (alt)
+
+|FLOAT_FIELD_SINGLE| Influence
+
+|VECTOR_FIELD_SINGLE| Direction
+
+|BOOLEAN_FIELD_SINGLE| Include Opposite
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Position
+
 
 Examples
 ========

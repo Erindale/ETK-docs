@@ -10,21 +10,34 @@
 
    The ETK_Array Linear node.
 
-Array Linear group description.
+The **Array Linear** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|INTEGER| Count
+
+|VECTOR| Start
+
+|VECTOR| Offset / End
+
+|BOOLEAN| Use End
+
+|FLOAT| Spacing
+
+|FLOAT| Use Spacing
+
+|FLOAT_FIELD_SINGLE| Align Rotation
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instances
+
 
 Examples
 ========

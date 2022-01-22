@@ -10,21 +10,28 @@
 
    The ETK_Vector Inject node.
 
-Vector Inject group description.
+The **Vector Inject** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Vector
+
+|FLOAT_FIELD_SINGLE| Value
+
+|BOOLEAN_FIELD_SINGLE| Replace X
+
+|BOOLEAN_FIELD_SINGLE| Replace Y
+
+|BOOLEAN_FIELD_SINGLE| Replace Z
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Vector
+
 
 Examples
 ========

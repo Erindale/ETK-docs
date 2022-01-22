@@ -10,21 +10,31 @@
 
    The ETK_Array Radial node.
 
-Array Radial group description.
+The **Array Radial** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
 
+|INTEGER| Count
+
+|INTEGER| Radius
+
+|VECTOR_FIELD_SINGLE| Centre
+
+|FLOAT| Spacing
+
+|BOOLEAN| Use Spacing
+
+|FLOAT_FIELD_SINGLE| Align Rotation
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Intances
+
 
 Examples
 ========

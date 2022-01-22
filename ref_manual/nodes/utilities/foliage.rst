@@ -16,15 +16,46 @@ Foliage group description.
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|COLLECTION| Collection
+
+|FLOAT_FIELD_SINGLE| Viewport
+
+|FLOAT_FIELD_SINGLE| Render
+
+|BOOLEAN| Show Render
+
+|FLOAT| Distance Min
+
+|INTEGER| Seed
+
+|BOOLEAN_FIELD_SINGLE| Selection
+
+|BOOLEAN_FIELD_SINGLE| Camera Cull Mask
+
+|VECTOR_FIELD_SINGLE| Normal Masking
+
+|FLOAT_FIELD_SINGLE| Angle Deviation
+
+|VECTOR_FIELD_SINGLE| Rotation
+
+|VECTOR_FIELD_SINGLE| Deviation
+
+|FLOAT_FIELD_SINGLE| Align to Terrain
+
+|FLOAT_FIELD_SINGLE| Scale
+
+|FLOAT_FIELD_SINGLE| Deviation
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instances
+
+|INTEGER| Total Number
+
 
 Examples
 ========

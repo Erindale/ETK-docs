@@ -10,21 +10,32 @@
 
    The ETK_Array Spline node.
 
-Array Spline group description.
+The **Array Spline** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|GEOMETRY| Spline
+
+|INTEGER_FIELD_SINGLE| Resolution
+
+|INTEGER| Count
+
+|FLOAT| Spacing
+
+|BOOLEAN| Use Spacing
+
+|BOOLEAN_FIELD_SINGLE| Align Rotation
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instances
+
 
 Examples
 ========

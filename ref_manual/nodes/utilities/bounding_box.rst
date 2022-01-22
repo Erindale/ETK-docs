@@ -10,21 +10,40 @@
 
    The ETK_Bounding Box node.
 
-Bounding Box group description.
+The **Bounding Box** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
-
+|GEOMETRY| Geometry
+   The geometry on which to determine the bounding box.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Bounding Box
+
+|VECTOR| Centre
+
+|FLOAT| Min X
+
+|FLOAT| Max X
+
+|FLOAT| Min Y
+
+|FLOAT| Max Y
+
+|FLOAT| Max Z
+
+|FLOAT| Min Z
+
+|FLOAT| Size X
+
+|FLOAT| Size Y
+
+|FLOAT| Size Z
+
 
 Examples
 ========

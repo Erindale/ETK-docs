@@ -10,21 +10,24 @@
 
    The ETK_UV Lattice node.
 
-UV Lattice group description.
+The **UV Lattice** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| UVMap
+
+|OBJECT| Control Object
+
+|INTEGER| Smoothing level
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Projected UV
+
 
 Examples
 ========

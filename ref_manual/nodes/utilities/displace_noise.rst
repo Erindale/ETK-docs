@@ -10,21 +10,38 @@
 
    The ETK_Displace Noise node.
 
-Displace Noise group description.
+The **Displace Noise** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|BOOLEAN_FIELD_SINGLE| Normal / Vector
+
+|VECTOR_FIELD_SINGLE| Vector
+
+|FLOAT_FIELD_SINGLE| Strength
+
+|FLOAT_FIELD_SINGLE| Midlevel
+
+|VECTOR_FIELD_SINGLE| Noise Coordinates
+
+|FLOAT_FIELD_SINGLE| Scale
+
+|FLOAT_FIELD_SINGLE| Detail
+
+|FLOAT_FIELD_SINGLE| Roughness
+
+|FLOAT_FIELD_SINGLE| Distortion
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

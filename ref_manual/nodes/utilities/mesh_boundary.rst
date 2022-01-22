@@ -10,21 +10,30 @@
 
    The ETK_Mesh Boundary node.
 
-Mesh Boundary group description.
+The **Mesh Boundary** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|FLOAT_FIELD_SINGLE| Boundary
+
+|FLOAT_FIELD_SINGLE| Falloff Min
+
+|FLOAT_FIELD_SINGLE| Falloff Max
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT| Distance
+
+|FLOAT_FIELD_SINGLE| Falloff
+
+|GEOMETRY| Debug
+
 
 Examples
 ========

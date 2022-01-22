@@ -10,21 +10,36 @@
 
    The ETK_Point Distribute node.
 
-Point Distribute group description.
+The **Point Distribute** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geoemetry
+
+|FLOAT_FIELD_SINGLE| Viewport
+
+|FLOAT_FIELD_SINGLE| Render Distance
+
+|BOOLEAN| Show Render
+
+|FLOAT| Distance Min
+
+|INTEGER| Seed
+
+|BOOLEAN_FIELD_SINGLE| Selection
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Points
+
+|VECTOR_FIELD| Normal
+
+|VECTOR_FIELD| Rotation
+
 
 Examples
 ========

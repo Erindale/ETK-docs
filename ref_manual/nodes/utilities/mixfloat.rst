@@ -10,21 +10,24 @@
 
    The ETK_MixFloat node.
 
-MixFloat group description.
+The **MixFloat** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Fac
+
+|FLOAT_FIELD_SINGLE| Value1
+
+|FLOAT_FIELD_SINGLE| Value2
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Value
+
 
 Examples
 ========

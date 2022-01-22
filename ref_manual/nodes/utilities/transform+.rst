@@ -10,21 +10,32 @@
 
    The ETK_Transform+ node.
 
-Transform+ group description.
+The **Transform+** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|BOOLEAN_FIELD_SINGLE| Selection
+
+|BOOLEAN_FIELD_SINGLE| Custom Centre
+
+|VECTOR_FIELD_SINGLE| Centre
+
+|VECTOR_FIELD_SINGLE| Move
+
+|VECTOR_FIELD_SINGLE| Rotate
+
+|VECTOR_FIELD_SINGLE| Scale
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

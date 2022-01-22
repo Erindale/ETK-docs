@@ -10,21 +10,26 @@
 
    The ETK_Random Bias F node.
 
-Random Bias F group description.
+The **Random Bias F** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Min
+
+|FLOAT_FIELD_SINGLE| Max
+
+|FLOAT_FIELD_SINGLE| Bias
+
+|INTEGER_FIELD_SINGLE| Seed
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Value
+
 
 Examples
 ========

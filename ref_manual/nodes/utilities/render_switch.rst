@@ -10,21 +10,24 @@
 
    The ETK_Render Switch node.
 
-Render Switch group description.
+The **Render Switch** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Viewport Value
+
+|FLOAT_FIELD_SINGLE| Render Value
+
+|BOOLEAN_FIELD_SINGLE| Show Render
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Output
+
 
 Examples
 ========

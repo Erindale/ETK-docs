@@ -10,21 +10,52 @@
 
    The ETK_LOD node.
 
-LOD group description.
+The **LOD** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Points
+
+|OBJECT| Camera
+
+|OBJECT| LOD0
+
+|OBJECT| LOD1
+
+|OBJECT| LOD2
+
+|OBJECT| LOD3
+
+|OBJECT| LOD4
+
+|FLOAT_FIELD_SINGLE| LOD1 Distance
+
+|FLOAT_FIELD_SINGLE| LOD2 Distance
+
+|FLOAT_FIELD_SINGLE| LOD3 Distance
+
+|FLOAT_FIELD_SINGLE| LOD4 Distance
+
+|BOOLEAN| Force LOD4
+
+|VECTOR_FIELD_SINGLE| Rotation
+
+|VECTOR_FIELD_SINGLE| Deviation
+
+|FLOAT_FIELD_SINGLE| Scale
+
+|FLOAT_FIELD_SINGLE| Deviation
+
+|INTEGER_FIELD_SINGLE| Seed
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instances
+
 
 Examples
 ========

@@ -10,21 +10,30 @@
 
    The ETK_Cross Section node.
 
-Cross Section group description.
+The **Cross Section** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+
+|GEOMETRY| Cut Locations
+
+|VECTOR_FIELD_SINGLE| Cut Rotations
+
+|BOOLEAN_FIELD_SINGLE| Fill
+
+|GEOMETRY| Alternate Cutter
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
+
+.. Caution:: Boolean-based so this node may fail.
 
 Examples
 ========

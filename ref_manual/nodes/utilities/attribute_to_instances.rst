@@ -10,21 +10,28 @@
 
    The ETK_Attribute to Instances node.
 
-Attribute to Instances group description.
+The **Attribute to Instances** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Instances
+
+|GEOMETRY| Target
+
+|VECTOR_FIELD_SINGLE| Attribute
+
+|BOOLEAN_FIELD_SINGLE| Nearest Face / Nearest
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Real Geometry
+
+|VECTOR| Attribute
+
 
 Examples
 ========

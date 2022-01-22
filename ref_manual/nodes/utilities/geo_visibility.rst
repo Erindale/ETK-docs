@@ -10,21 +10,24 @@
 
    The ETK_Geo Visibility node.
 
-Geo Visibility group description.
+The **Geo Visibility** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Render
+
+|GEOMETRY| Viewport
+
+|BOOLEAN| Show Render
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Output
+
 
 Examples
 ========

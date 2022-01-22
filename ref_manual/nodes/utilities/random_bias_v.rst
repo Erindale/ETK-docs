@@ -10,21 +10,27 @@
 
    The ETK_Random Bias V node.
 
-Random Bias V group description.
+The **Random Bias V** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| Min
+
+|VECTOR_FIELD_SINGLE| Max
+
+|FLOAT_FIELD_SINGLE| Bias
+
+|INTEGER_FIELD_SINGLE| Seed
+
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Vector
+
 
 Examples
 ========

@@ -10,21 +10,31 @@
 
    The ETK_Align Mesh by Mesh node.
 
-Align Mesh by Mesh group description.
+The **Align Mesh by Mesh** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|GEOMETRY| Target
+
+|BOOLEAN| Align X
+
+|BOOLEAN| Align Y
+
+|BOOLEAN| Align Z
+
+|FLOAT| <- G ->
+
+|FLOAT| <- T ->
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
 
 Examples
 ========

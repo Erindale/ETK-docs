@@ -10,21 +10,25 @@
 
    The ETK_Switch Object node.
 
-Switch Object group description.
+The **Switch Object** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER| Index
+
+|OBJECT| 0
+
+|OBJECT| 1-9
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|OBJECT| Object
+   The output object determined by the *Index*.
+
 
 Examples
 ========

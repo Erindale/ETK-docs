@@ -10,21 +10,24 @@
 
    The ETK_Switch Vector node.
 
-Switch Vector group description.
+The **Switch Vector** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|INTEGER_FIELD_SINGLE| Index
+
+|VECTOR_FIELD_SINGLE| 0
+
+|VECTOR_FIELD_SINGLE| 1-9
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD_SINGLE| Vector
+
 
 Examples
 ========

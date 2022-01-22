@@ -10,21 +10,34 @@
 
    The ETK_Twist node.
 
-Twist group description.
+The **Twist** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|FLOAT_FIELD_SINGLE| Angle Min
+
+|FLOAT_FIELD_SINGLE| Angle Max
+
+|VECTOR| Twist Axis
+
+|FLOAT_FIELD_SINGLE| Limit Min
+
+|FLOAT_FIELD_SINGLE| Limit Max
+
+|VECTOR| Centre
+
+|BOOLEAN_FIELD_SINGLE| Linear / Smoothed
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

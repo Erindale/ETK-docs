@@ -10,21 +10,32 @@
 
    The ETK_Bend node.
 
-Bend group description.
+The **Bend** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|FLOAT| Angle
+
+|GEOMETRY| Bend Axis
+
+|FLOAT_FIELD_SINGLE| Limit Min
+
+|FLOAT_FIELD_SINGLE| Limit Max
+
+|BOOLEAN_FIELD_SINGLE| Custom Centre
+
+|VECTOR_FIELD_SINGLE| Centre
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

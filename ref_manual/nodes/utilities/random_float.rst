@@ -10,21 +10,24 @@
 
    The ETK_Random Float node.
 
-Random Float group description.
+The **Random Float** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT_FIELD_SINGLE| Value
+
+|FLOAT_FIELD_SINGLE| Deviation
+
+|INTEGER_FIELD_SINGLE| Seed
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD_SINGLE| Value
+
 
 Examples
 ========

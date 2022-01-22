@@ -10,21 +10,22 @@
 
    The ETK_Force Size node.
 
-Force Size group description.
+The **Force Size** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+
+|FLOAT| Max Size
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+
 
 Examples
 ========

@@ -10,21 +10,40 @@
 
    The ETK_Raycast Scatter node.
 
-Raycast Scatter group description.
+The **Raycast Scatter** group description.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|OBJECT| Controller
+
+|COLLECTION| Target
+
+|FLOAT| Density
+
+|FLOAT| Distance Min
+
+|FLOAT_FIELD_SINGLE| Height Impact
+
+|COLLECTION| Instances
+
+|GEOMETRY| Geometry (alt)
+
+|VECTOR_FIELD_SINGLE| Rotation
+
+|BOOLEAN_FIELD_SINGLE| Align to Normals
+
+|VECTOR_FIELD_SINGLE| Scale
+
+|INTEGER| Seed
 
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Instances
+
 
 Examples
 ========
