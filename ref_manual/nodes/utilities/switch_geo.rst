@@ -26,7 +26,7 @@ Inputs
 Outputs
 ========
 
-Geometry
+|GEOMETRY| Geometry
 
 
 Examples
