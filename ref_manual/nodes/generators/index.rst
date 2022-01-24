@@ -4,8 +4,6 @@
  Generators
 ***********
 
-.. todo:: Generators description
-
 .. toctree::
    :maxdepth: 1
 

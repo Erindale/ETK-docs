@@ -4,8 +4,6 @@
  Fields
 *******
 
-.. todo:: Fields description
-
 .. toctree::
    :maxdepth: 1
 

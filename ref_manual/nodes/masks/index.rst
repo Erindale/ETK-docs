@@ -4,8 +4,6 @@
  Masks
 ******
 
-.. todo:: Masks description
-
 .. toctree::
    :maxdepth: 1
 

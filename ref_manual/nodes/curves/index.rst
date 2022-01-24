@@ -4,8 +4,6 @@
  Curves
 *******
 
-.. todo:: Curves description
-
 .. toctree::
    :maxdepth: 1
 

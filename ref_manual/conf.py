@@ -34,8 +34,8 @@ extensions = [
 # .. todo::     - adds a todo item
 # .. todolist:: - generates a list of todos
 todo_include_todos = True
-# todo_emit_warnings = True
-# todo_link_only = False
+todo_emit_warnings = False
+todo_link_only = False
 
 # If true, the ReST sources are included in the HTML build as _sources/name
 #html_copy_source = False

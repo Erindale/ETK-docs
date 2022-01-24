@@ -4,8 +4,6 @@
  Utilities
 **********
 
-.. todo:: Utilities description
-
 .. toctree::
    :maxdepth: 1
 

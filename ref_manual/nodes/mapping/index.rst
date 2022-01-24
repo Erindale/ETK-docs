@@ -4,8 +4,6 @@
  Mapping
 ********
 
-.. todo:: Mapping description
-
 .. toctree::
    :maxdepth: 1
 
