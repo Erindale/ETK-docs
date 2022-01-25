@@ -10,36 +10,55 @@
 
    The ETK_Array Linear node.
 
-The **Array Linear** group description.
+The **Array Linear** group creates an array of the input geometry..
 
 
 Inputs
 =======
 
 |GEOMETRY| Geometry
+   The input geometry to duplicate.
 
 |INTEGER| Count
+   When set to *Offset* this specifies the number of instances to
+   place at that offset. This value is ignored if *Use End* is selected.
 
 |VECTOR| Start
+   The starting position.
 
 |VECTOR| Offset / End
+   This vector value is interpreted as the *End* target if *Use End*
+   is selected, otherwise it is the offset.
 
 |BOOLEAN| Use End
+   Interpret *Offset / End* as an end position of the array.
 
 |FLOAT| Spacing
+   Space object this amount. This is ignored unless *Use Spacing* is
+   selected.
 
 |FLOAT| Use Spacing
+   Use the spacing value to determine how many objects to place
+   between *Start* and *Offset / End*. For spacing to work, *Use End*
+   must be selected.
 
 |FLOAT_FIELD_SINGLE| Align Rotation
+   Align instances along the direction of the array.
 
 
 Outputs
 ========
 
 |GEOMETRY| Instances
+   The generated instances.
 
 
 Examples
 ========
 
-.. todo:: Add example for ETK_Array Linear
+.. figure:: /images/nodes-array_linear_basic.png
+   :align: center
+   :width: 800
+
+   Use two **Array Linear** groups to create a geometric pattern of
+   cubes. Both arrays use *Spacing* to achieve this effect.
