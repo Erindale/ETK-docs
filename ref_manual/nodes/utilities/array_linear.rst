@@ -10,8 +10,11 @@
 
    The ETK_Array Linear node.
 
-The **Array Linear** group creates an array of the input geometry..
-
+The **Array Linear** group duplicates the input geometry along a line
+defined by the user. This line is specified by a starting point and
+either a count of objects with an offset or by setting a spacing
+amount to an end point. See also
+:ref:`etk-utilities-array_radial` and :ref:`etk-utilities-array_spline`.
 
 Inputs
 =======
