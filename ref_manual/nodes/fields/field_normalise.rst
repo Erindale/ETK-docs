@@ -34,4 +34,9 @@ Outputs
 Examples
 ========
 
-.. todo:: Add example for ETK_Field Normalise
+.. figure:: /images/nodes-field_normalise_basic.png
+   :align: center
+   :width: 800
+
+   The outer 2m radius circle is our input, the *Position* field is
+   normalised and then used to set the position.
