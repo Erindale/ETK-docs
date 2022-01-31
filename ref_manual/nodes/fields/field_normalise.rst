@@ -11,7 +11,7 @@
    The ETK_Field Normalise node.
 
 The **Field Normalise** group takes a vector field and maps all
-vectors to a length between 0 and 1.
+vectors to values between 0 and 1.
 
 
 Inputs
