@@ -30,4 +30,10 @@ Outputs
 Examples
 ========
 
-.. todo:: Add example for ETK_Cartesian to Cylindrical
+.. figure:: /images/nodes-cartesian_cylindrical_basic.png
+   :align: center
+   :width: 800
+
+   Using a sphere as input, the **Cartesian to Cylindrical** group is
+   used to fake a bevel by clamping Z and constraining the radius
+   before converting back to cartesian coordinates.

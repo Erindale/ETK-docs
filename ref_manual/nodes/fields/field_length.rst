@@ -34,6 +34,6 @@ Examples
    :align: center
    :width: 800
 
-   A long-winded example that find the length of a grid, retrieved from
+   A long-winded example that finds the length of a grid, retrieved from
    a **Field Length** group, and displays it below the geometry as a
    string.
