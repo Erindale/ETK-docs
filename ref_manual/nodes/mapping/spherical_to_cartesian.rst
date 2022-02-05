@@ -30,4 +30,17 @@ Outputs
 Examples
 ========
 
-.. todo:: Add example for ETK_Spherical to Cartesian
+
+.. rubric:: Spherical coordinate display
+
+Here the **Spherical to Cartesian** group is used to trace a portion
+of a unit sphere. In all cases we use 1 for the radius and a **Field
+Map Range** group to provide values for θ and φ in the range
+:math:`0 .. {\pi\over{2}}` .
+
+.. figure:: /images/nodes-spherical_to_cartesian_basic.png
+   :align: center
+   :width: 800
+
+   Use the **Spherical to Cartesian** group to outline a portion of
+   the unit sphere.

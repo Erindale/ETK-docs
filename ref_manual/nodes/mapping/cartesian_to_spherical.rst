@@ -11,7 +11,9 @@
    The ETK_Cartesian to Spherical node.
 
 The **Cartesian to Spherical** group converts cartesian vector
-coordinates to spherical coordinates.
+coordinates to spherical coordinates. Spherical coordinates are often
+thought of as the 3D version of the polar coordinate system.
+
 See also :ref:`etk-mapping-spherical_to_cartesian`.
 
 
@@ -25,10 +27,22 @@ Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| (r,θ,φ)
-   The resulting spherical coordinates.
+   The resulting spherical coordinates [#]_ as a vector with,
+      * Radial distance *r* (distance to origin.)
+      * Polar angle θ (angle with respect to the polar axis.)
+      * Azimuthal angle φ (angle of rotation from the initial meridian
+        plane.)
 
 
 Examples
 ========
 
-.. todo:: Add example for ETK_Cartesian to Spherical
+.. todo:: Needs example.
+
+-----------
+
+.. rubric:: Footnotes
+
+.. [#] This is the `ISO 80000 2:2019
+       <https://en.wikipedia.org/wiki/Spherical_coordinate_system>`_
+       convention.

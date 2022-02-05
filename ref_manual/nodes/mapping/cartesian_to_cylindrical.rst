@@ -24,7 +24,11 @@ Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| (r,θ,z)
-   The converted cylindrical coordinates.
+   The converted cylindrical coordinates, where
+      * *r* is the axial radius, sometime annotated as ρ (rho), or the
+        projection of the radius onto the XY plane.
+      * θ is the rotational angle
+      * and *z* is the elevation
 
 
 Examples
