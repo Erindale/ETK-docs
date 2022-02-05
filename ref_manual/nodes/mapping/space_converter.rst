@@ -25,7 +25,7 @@ Inputs
    coordinate system,
    * 0, the default, cartesian coordinates
    * 1 cylindrical
-   * spherical
+   * 2 spherical
 
 |INTEGER_FIELD_SINGLE| Cart|Cyl|Sp
    An enumerated value of 0, 1, or 2, to specify the output coordinate

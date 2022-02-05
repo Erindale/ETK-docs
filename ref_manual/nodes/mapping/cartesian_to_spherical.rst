@@ -20,17 +20,20 @@ See also :ref:`etk-mapping-spherical_to_cartesian`.
 Inputs
 =======
 
-|FLOAT_FIELD_SINGLE| (x,y,z)
+|FLOAT_FIELD_SINGLE| (x, y, z)
+
    The cartesian coordinates to convert.
 
 Outputs
 ========
 
-|FLOAT_FIELD_SINGLE| (r,θ,φ)
+|FLOAT_FIELD_SINGLE| (r, |THETA| , |PHI| )
+
    The resulting spherical coordinates [#]_ as a vector with,
+
       * Radial distance *r* (distance to origin.)
-      * Polar angle θ (angle with respect to the polar axis.)
-      * Azimuthal angle φ (angle of rotation from the initial meridian
+      * Polar angle |THETA| (angle with respect to the polar axis.)
+      * Azimuthal angle |PHI| (angle of rotation from the initial meridian
         plane.)
 
 

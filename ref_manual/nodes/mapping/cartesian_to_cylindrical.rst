@@ -12,24 +12,30 @@
 
 The **Cartesian to Cylindrical**  group converts between cartesian
 and cylindrical coordinates.
-See also :ref:`etk-mapping-cylindrical_to_cartesian`.
+
+See also :ref:`etk-mapping-cylindrical_to_cartesian`,
+`cylindrical coordinate system
+<https://en.wikipedia.org/wiki/Cylindrical_coordinate_system>`_
+article in wikipedia.
 
 Inputs
 =======
 
-|VECTOR_FIELD_SINGLE| (x,y,z)
+|VECTOR_FIELD_SINGLE| (x, y, z)
+
    The cartesian vector coordinates to convert.
 
 Outputs
 ========
 
-|FLOAT_FIELD_SINGLE| (r,θ,z)
-   The converted cylindrical coordinates, where
-      * *r* is the axial radius, sometime annotated as ρ (rho), or the
-        projection of the radius onto the XY plane.
-      * θ is the rotational angle
-      * and *z* is the elevation
+|FLOAT_FIELD_SINGLE| (r, |THETA|, z)
 
+   The converted cylindrical coordinates, where
+
+      * *r* is the axial radius, sometime annotated as |RHO| (rho), or the
+        projection of the radius onto the XY plane.
+      * |THETA| is the rotational angle
+      * and *z* is the elevation
 
 Examples
 ========

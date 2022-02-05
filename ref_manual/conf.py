@@ -118,6 +118,11 @@ rst_prolog = """
 .. |COLOR| image:: /images/nodes-socket_color.svg
 .. |COLOR_FIELD| image:: /images/nodes-socket_color_field.svg
 .. |COLOR_FIELD_SINGLE| image:: /images/nodes-socket_color_field_single.svg
+.. |DEGREES| replace:: °
+.. |PI| replace:: π
+.. |RHO| replace:: ρ
+.. |THETA| replace:: θ
+.. |PHI| replace:: φ
 """ % etk_version
 
 rst_epilog = """
