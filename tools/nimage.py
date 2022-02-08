@@ -92,10 +92,10 @@ def main(args):
         p2 = subprocess.Popen(quantify, stdin=p1.stdout)
         p1.stdout.close()
         p2.communicate()[0]
+    return 1
 
 
 # MAIN
 if __name__ == "__main__":
     args = subArgs()
-    main(args)
-    sys.exit(0)
+    sys.exit(main(args))
