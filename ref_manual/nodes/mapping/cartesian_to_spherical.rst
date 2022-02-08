@@ -21,14 +21,12 @@ Inputs
 =======
 
 |FLOAT_FIELD_SINGLE| (x, y, z)
-
    The cartesian coordinates to convert.
 
 Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| (r, |THETA| , |PHI| )
-
    The resulting spherical coordinates [#]_ as a vector with,
 
       * Radial distance *r* (distance to origin.)

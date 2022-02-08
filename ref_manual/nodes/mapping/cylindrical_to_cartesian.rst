@@ -18,7 +18,6 @@ Inputs
 =======
 
 |FLOAT_FIELD_SINGLE| (r, |THETA|, z)
-
    The cylindrical coordinates to convert, where
 
       * *r* is the axial radius, sometime annotated as |RHO| (rho), or the
@@ -30,7 +29,6 @@ Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| (x, y, z)
-
    The resulting cartesian coordinates.
 
 

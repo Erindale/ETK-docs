@@ -22,14 +22,12 @@ Inputs
 =======
 
 |VECTOR_FIELD_SINGLE| (x, y, z)
-
    The cartesian vector coordinates to convert.
 
 Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| (r, |THETA|, z)
-
    The converted cylindrical coordinates, where
 
       * *r* is the axial radius, sometime annotated as |RHO| (rho), or the
