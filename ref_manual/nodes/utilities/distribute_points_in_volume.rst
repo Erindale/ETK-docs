@@ -10,7 +10,7 @@
 
    The ETK_Distribute Points in Volume node.
 
-The  ETK_Distribute Points in Volume group ...
+The **ETK_Distribute Points** in Volume group ...
 
 
 Inputs

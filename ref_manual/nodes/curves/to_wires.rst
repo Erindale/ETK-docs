@@ -17,8 +17,10 @@ Inputs
 =======
 
 |GEOMETRY| Geometry
+   The input geometry from which to make the wireframe.
 
 |BOOLEAN_FIELD_SINGLE| Selection
+   Portions of the geometry can be masked using this field.
 
 |INTEGER| Count
 

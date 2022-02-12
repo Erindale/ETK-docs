@@ -35,9 +35,8 @@ Outputs
    Yields *true* if the geometry is below the plane.
 
 |FLOAT_FIELD| SDF
-   A signed distance function giving the distance of the geometry from
-   the furthest vertices below the plane (negative) to all vertices
-   above the plane.
+   A signed distance function giving values for the geometry for all
+   vertices below the plane (negative) to all vertices above the plane.
 
 |GEOMETRY| Preview
    Real geometry of the selection plane that can be viewed to help in
