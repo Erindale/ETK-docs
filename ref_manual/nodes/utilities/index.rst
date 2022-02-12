@@ -19,6 +19,7 @@
    displace_noise.rst
    displace_texture.rst
    displace_voronoi.rst
+   distribute_points_in_volume.rst
    foliage.rst
    force_size.rst
    geo_visibility.rst

@@ -15,4 +15,5 @@
    field_offset.rst
    field_replace.rst
    field_shuffle.rst
+   flip_index.rst
    index_to_fac.rst
