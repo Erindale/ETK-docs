@@ -10,27 +10,43 @@
 
    The ETK_Distribute Points in Volume node.
 
-The **ETK_Distribute Points** in Volume group ...
+The **ETK_Distribute Points in Volume** group generates and
+distributes points within a geometry.
 
 
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+   The input mesh.
 
-Properties
-===========
+|BOOLEAN_FIELD_SINGLE| Selection
 
-This node has no properties
+|FLOAT| Density
+
+|FLOAT_FIELD_SINGLE| Density Factor
+
+|FLOAT_FIELD_SINGLE| Randomise
+
+|INTEGER_FIELD_SINGLE| Seed
+   The seed for randomisation.
+
+|BOOLEAN_FIELD_SINGLE| Fast / Accurate
+
+|INTEGER| Accuracy
+
+|BOOLEAN_FIELD_SINGLE| Backface Check
+   Check to perform additional backface checking. This may be
+   necessary on more complex geometry.
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Points
+   The distributed points.
 
-Example Usage
-==============
+Examples
+========
 
 .. todo:: Add example for ETK_Distribute Points in Volume
