@@ -34,9 +34,11 @@ Outputs
 |BOOLEAN_FIELD| Outside
    Yields *true* if the geometry is below the plane.
 
+.. index:: Signed Distance Function; Selection Plane
+
 |FLOAT_FIELD| SDF
-   A signed distance function giving values for the geometry for all
-   vertices below the plane (negative) to all vertices above the plane.
+   A signed distance function yielding larger values further from the
+   plane.
 
 |GEOMETRY| Preview
    Real geometry of the selection plane that can be viewed to help in

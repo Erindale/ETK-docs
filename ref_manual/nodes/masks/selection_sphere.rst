@@ -32,11 +32,15 @@ Outputs
 |BOOLEAN_FIELD| Outside
    Boolean field that yields *True* outside the selection sphere.
 
+.. index:: Signed Distance Function; Selection Sphere
+
 |FLOAT_FIELD| SDF
-   A signed-distance-function which yields values of
-   :math:`{0}\ldots{1}`, closest to furthest.
+   A signed-distance-function which yields negative values within the
+   sphere, increasing positive values outside.
 
 |GEOMETRY| Preview
+   Real geometry that can be join'd to the output temporarily to place
+   the selection.
 
 
 Examples

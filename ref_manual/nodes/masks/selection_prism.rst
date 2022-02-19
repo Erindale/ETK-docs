@@ -40,7 +40,11 @@ Outputs
 |BOOLEAN_FIELD| Outside
    Yields *true* for vertices outside the prism.
 
+.. index:: Signed Distance Function; Selection Prism
+
 |FLOAT_FIELD| SDF
+   A signed distance function yielding increasing values further from
+   the prism boundary.
 
 |GEOMETRY| Preview
    Real geometry that can be joined to the view to aid in placing the
@@ -50,4 +54,21 @@ Outputs
 Examples
 ========
 
-.. todo:: Add example for ETK_Selection Prism
+.. rubric:: Prism selection
+
+The setup for this example is a simple cube populated with smaller
+cubes by a :ref:`etk-utilities-distribute_points_in_volume` group,
+set fairly densely but with no randomisation.
+
+.. figure:: /images/nodes-selection_prism_basic.png
+   :align: center
+   :width: 800
+
+   Using a 3-sided **Selection Prism** to mask instances from a cube
+   shape.
+
+.. figure:: /images/nodes-selection_prism_basic_comp.png
+   :align: center
+
+   The unmasked instances, with mask and preview in the center, then without the
+   preview.

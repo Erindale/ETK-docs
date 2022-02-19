@@ -41,9 +41,11 @@ Outputs
 |BOOLEAN_FIELD| Outside
    A mask that selects points outside the box.
 
+.. index:: Signed Distance Function; Selection Box
+
 |FLOAT_FIELD| SDF
-   A signed distance function that outputs 0..1 values based the
-   point's proximity to its nearest face of the selection box.
+   A signed distance function that yields larger values further from
+   the box boundary.
 
 |GEOMETRY| Preview
    A preview of the selection box. This is real geometry that can be

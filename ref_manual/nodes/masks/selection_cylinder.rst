@@ -38,9 +38,11 @@ Outputs
 |BOOLEAN_FIELD| Outside
    Boolean mask of points outside the cylinder.
 
+.. index:: Signed Distance Function; Selection Cylinder
+
 |FLOAT_FIELD| SDF
-   A signed distance function of the nearness of points to the
-   cylinder's boundaries.
+   A signed distance function that yields increasing values
+   further from the cylinder boundary.
 
 |GEOMETRY| Preview
    The geometry of the cylinder that can be joined to the **Group

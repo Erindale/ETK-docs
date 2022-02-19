@@ -30,6 +30,8 @@ Outputs
 
 |BOOLEAN_FIELD| Outside
 
+.. index:: Signed Distance Function; Distance Cull
+
 |FLOAT_FIELD| SDF
 
 
