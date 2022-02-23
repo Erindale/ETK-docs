@@ -62,7 +62,7 @@ This example animates a cube around a grid by offsetting the
 *Scene Time* node so moves are made once a second.
 
 To make it wrap continuously the animation specifies 24 FPS with a
-length of :math:`16\times{24} = 384`.
+length of :math:`16\times{24} = 384` frames.
 
 .. figure:: /images/nodes-field_offset_basic.png
    :align: center

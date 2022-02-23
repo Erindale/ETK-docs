@@ -11,7 +11,7 @@
    The ETK_Index to Fac node.
 
 The **Index to Fac** group takes a geometry as input and maps the
-index to a 0..1 range on the output.
+index to a :math:`0\ldots 1` range on the output.
 
 Inputs
 =======
@@ -23,7 +23,7 @@ Outputs
 ========
 
 |FLOAT_FIELD_SINGLE| Fac
-   A 0..1 gradient representing the indices.
+   :math:`0\ldots 1` gradient representing the indices.
 
 Examples
 ========
