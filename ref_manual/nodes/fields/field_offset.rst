@@ -58,11 +58,10 @@ Examples
 
 This example animates a cube around a grid by offsetting the
 *Position* field of the grid and only instantiating the cube at
-*Index* 0. The node group also uses the *Seconds* output of the new
-*Scene Time* node so moves are made once a second.
+*Index* 0. The node group uses the *Frame* output of the new
+*Scene Time* node to render 16 frames (:math:`0\ldots 15`).
 
-To make it wrap continuously the animation specifies 24 FPS with a
-length of :math:`16\times{24} = 384` frames.
+Compare this to the :ref:`etk-fields-field_shuffle` group.
 
 .. figure:: /images/nodes-field_offset_basic.png
    :align: center
