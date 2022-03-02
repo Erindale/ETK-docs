@@ -38,7 +38,8 @@ Outputs
 Examples
 ========
 
-.. todo:: Needs example.
+See :ref:`etk-mapping-space_converter`
+for one example of using the spherical coordinate system.
 
 -----------
 
