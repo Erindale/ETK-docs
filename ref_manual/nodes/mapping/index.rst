@@ -4,6 +4,10 @@
  Mapping
 ********
 
+The mapping nodes support texture mapping and coordinate systems.
+
+This is a test of :doc:`/nodes/mapping/cartesian_to_cylindrical`.
+
 .. toctree::
    :maxdepth: 1
 

@@ -22,7 +22,7 @@ Inputs
 
 |INTEGER_FIELD_SINGLE| Cart|Cyl|Sp
    An enumerated value of 0, 1, or 2, that matches the input vector
-   coordinate system,
+   coordinate system, [#]_
 
    * 0, the default, cartesian coordinates
    * 1 cylindrical
@@ -74,3 +74,9 @@ From left to right:
 
    * Output to cylindrical: input to the **Space Converter** is
      interpreted as spherical on input but output as cylindrical.
+
+-----------
+
+.. rubric:: Footnotes
+
+.. [#] Or, at least, this is how the vector will be interpreted.
