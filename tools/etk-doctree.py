@@ -48,7 +48,7 @@ def main(argv):
         with open(fname) as etk:
             nodes = json.load(etk)
             for top in nodes:
-                topdir = os.path.join(CURDIR, top.lower())
+                topdir = os.path.join(CURDIR, 'nodes', top.lower())
                 if not os.path.exists(topdir):
                     os.mkdir(topdir)
                 os.chdir(topdir)
@@ -56,6 +56,7 @@ def main(argv):
                 for node in nodes[top]:
                     rst = make_rst(top, node)
                     if len(rst) > 0:
+                        print(f"Created {rst}")
                         sections.append(rst)
                 # append to TOC on new sections
                 if len(sections) > 0:

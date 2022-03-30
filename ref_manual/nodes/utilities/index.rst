@@ -29,12 +29,13 @@
    mesh_to_instance.rst
    mixfloat.rst
    point_distribute.rst
+   purge_islands.rst
    random_bias_f.rst
    random_bias_v.rst
    random_float.rst
    random_vector.rst
-   raycast_scatter.rst
    raycast+.rst
+   raycast_scatter.rst
    render_switch.rst
    shrinkwrap.rst
    stepped_transform.rst
