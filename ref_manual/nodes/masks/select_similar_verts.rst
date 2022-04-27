@@ -32,11 +32,10 @@ Outputs
 
 |BOOLEAN_FIELD| Normal
 
-   Calulates the
+   Calculates the
    `dot product <https://en.wikipedia.org/wiki/Dot_product>`_,
    of the target's normal and the normal of all vertices and returns
-   true if that value is within the *deviation* of equivalence. If the
-   *Deviation& is given as zero, only exact matches will
+   true if that value is within the *deviation* of equivalence.
 
 .. NOTE:: If the two vectors are equivalent, the *dot product*
    calculation would return a value of 1, if exactly opposite, -1.
@@ -69,7 +68,7 @@ instantiated only on the corners because the vertex at
 edges.
 
 On the right, *Normals* were considered on :math:`index == 0` with a
-*Deviation* of :math:`1/3`. With a *Deviation* of zero, there would
+*Deviation* of :math:`1/3`. With a *Deviation* of :math:`0`, there would
 only be a single icosphere instantiated.
 
 .. figure:: /images/nodes-select_similar_verts_basic.png
