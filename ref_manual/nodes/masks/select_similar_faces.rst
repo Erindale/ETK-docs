@@ -21,7 +21,7 @@ Inputs
    The *index* of the face to use as a target.
 
 |FLOAT_FIELD_SINGLE| Deviation
-   A fuzziness factor to allow a `:math:\pm` range on the results.
+   A fuzziness factor to allow a :math:`\pm` range on the results.
 
 |GEOMETRY| Geo (for perimeter)
    The input geometry, only used to determine the perimeter mask.
