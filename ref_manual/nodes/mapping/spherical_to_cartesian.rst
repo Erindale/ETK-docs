@@ -39,7 +39,7 @@ Examples
 Here the **Spherical to Cartesian** group is used to trace a portion
 of a unit sphere. In all cases we use 1 for the radius and a **Field
 Map Range** group to provide values for |THETA| and |PHI| in the range
-:math:`0\dots{\pi\over{2}}` .
+:math:`[0\ldots{\pi\over{2}}]` .
 
 .. figure:: /images/nodes-spherical_to_cartesian_basic.png
    :align: center

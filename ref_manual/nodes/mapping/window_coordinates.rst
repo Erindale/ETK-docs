@@ -67,8 +67,8 @@ Coordinates** node group masked (left) and unmasked.
 +----------------------------------------------------------+-----------------------------------------------------------+
 
 Window coordinates project a simple UV coordinate system with
-:math:`0\ldots 1` from left to right (U) and
-:math:`0\ldots 1` from bottom to top (V). With the window coordinates
+:math:`[0\ldots 1]` from left to right (U) and
+:math:`[0\ldots 1]` from bottom to top (V). With the window coordinates
 in use, the object's coordinate system is fixed to the field of view of the
 camera object. Driving the gradient texture with the default object
 coordinates will cause the texture to remain fixed to the object.

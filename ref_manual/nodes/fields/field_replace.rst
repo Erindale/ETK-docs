@@ -45,7 +45,7 @@ Examples
 Starting with a :math:`4\times 4` grid, all positions are shuffled by
 the :ref:`etk-fields-field_shuffle` group. The **Field Replace** group is
 then used to replace the positions for :math:`index < 8`, the left
-half of the grid. The animation has 16 frames from :math:`0\ldots 15`
+half of the grid. The animation has 16 frames from :math:`[0\ldots 15]`
 and a single cube is instanced on the position given by the frame
 number.
 

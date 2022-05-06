@@ -59,7 +59,7 @@ Examples
 This example animates a cube around a grid by offsetting the
 *Position* field of the grid and only instantiating the cube at
 *Index* 0. The node group uses the *Frame* output of the new
-*Scene Time* node to render 16 frames (:math:`0\ldots 15`).
+*Scene Time* node to render 16 frames (:math:`[0\ldots 15]`).
 
 Compare this to the :ref:`etk-fields-field_shuffle` group.
 
