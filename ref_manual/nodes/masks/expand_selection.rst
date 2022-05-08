@@ -61,3 +61,20 @@ towards the center.
    :width: 800
 
    Using the **Expand Selection** group to grow a selection.
+
+.. rubric:: A side note on masks
+
+.. figure:: /images/nodes-expand_selection_and.png
+   :align: right
+
+   AND'ing the inverted boundary loop to modify the extrusion.
+
+Masks provide opportunities for creating interesting shapes. Here is
+an example of using a single AND boolean operation on the inverted
+**Boundary Mask** with the above example.
+
+.. figure:: /images/nodes-expand_selection_and_gn.png
+   :align: center
+   :width: 800
+
+   Using a single boolean operation to modify our example image.
