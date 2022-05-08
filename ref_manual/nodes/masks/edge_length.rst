@@ -49,7 +49,8 @@ Examples
 Masks have many intertaining uses. This example builds on a small
 number of mask group nodes to build a simple object. The rings of a
 UVSphere form edges that decrease in length as they approach the poles
-in either Z direction.
+in either Z direction. The *Length* value of 0.12 is chosen based on
+observed values in the spreadsheet.
 
 .. figure:: /images/nodes-edge_length_basic_a.png
    :align: center
@@ -76,11 +77,12 @@ it is a start.
 
    Step 3: Extruding the raw edges of the sphere.
 
-Finally, the final shape is completed by controlling the direction of
-the exclusion. The *Offset* of the extrusion is set by a vector with a
+The final shape is completed by controlling the direction and size of
+the extrusion. The *Offset* of the extrusion is set by a vector with a
 value of :math:`[0.0, 0.0, 1.0]`. The *Scale* of that offset is
 determined by whether the edge is above or below the origin then
-multiplied by the desired value.
+multiplied by the desired value. This method moves the upper boundary
+upwards and the lower boundary downwards.
 
 .. figure:: /images/nodes-edge_length_basic_d.png
    :align: center
