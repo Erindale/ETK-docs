@@ -44,6 +44,8 @@ Outputs
 Examples
 =========
 
+.. _masks-edge_length-example:
+
 .. rubric:: Building a shape with masks
 
 Masks have many intertaining uses. This example builds on a small
@@ -60,7 +62,7 @@ observed values in the spreadsheet.
 Removing the vertex at the top and bottom will leave us with a
 truncated sphere. There are several ways to do this but using the
 built-in **Edge Neighbors** node to determine absent faces seems like
-the easiest.
+the easiest. [#]_
 
 .. figure:: /images/nodes-edge_length_basic_b.png
    :align: center
@@ -89,3 +91,10 @@ upwards and the lower boundary downwards.
    :width: 800
 
    Step 4: Controlling the extrusion with standard geometry nodes.
+
+
+-----------
+
+.. rubric:: Footnotes
+
+.. [#] See also :ref:`etk-masks-is_wire`.
