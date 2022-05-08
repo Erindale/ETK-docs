@@ -10,32 +10,54 @@
 
    The ETK_Expand Selection node.
 
-The ETK_Expand Selection group ...
+The **Expand Selection** group takes as input a selection on a given
+geometry and expands the scope of the selection by a given amount.
 
 
 Inputs
 =======
 
 |GEOMETRY| Geometry
-   Input geometry
+
+   Input geometry.
 
 
 |BOOLEAN_FIELD_SINGLE| Selection
 
+   Input selection mask.
 
 |INTEGER_FIELD_SINGLE| Grow
 
+   Amount to grow the selection, 0 is no growth.
 
 Outputs
 ========
 
 |GEOMETRY| Geometry
 
+   Output geometry.
 
 |BOOLEAN_FIELD| Selection
 
+   The output selection, larger based on the *Grow* input value.
 
 Examples
 =========
 
-.. todo:: Add example for ETK_Expand Selection
+.. rubric:: Extruding an expanded boundary loop
+
+.. figure:: /images/nodes-expand_selection_basic.png
+   :align: right
+
+   A grid with its boundary grown and extruded.
+
+The :ref:`etk-masks-boundary_loop` selects the outer boundary of the
+grid and the **Expand Selection** group is used to grow that by 2. In
+our example, increasing the *Grow* value will enlarge the selection
+towards the center.
+
+.. figure:: /images/nodes-expand_selection_basic_gn.png
+   :align: center
+   :width: 800
+
+   Using the **Expand Selection** group to grow a selection.
