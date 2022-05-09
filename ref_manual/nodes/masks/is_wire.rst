@@ -34,9 +34,19 @@ Outputs
 Examples
 =========
 
-Referring to the example in :ref:`masks-edge_length-example`, it is
-possible to also clean up dangling edges in that example with the
-**Is Wire** node group.
+.. figure:: /images/nodes-is_wire_basic_comp.png
+   :align: right
+
+   Edge artifacts, before and after.
+
+Floating point operations can sometimes cause unwanted artifacts to be
+left on objects manipulated by geometery nodes. The **Is Wire** node
+group is a useful node for taking care of this by removing edges with
+no faces (wires). On the right is an example created with a
+:ref:`etk-masks-mesh_side` node group on a UVSphere. The image on the left
+is with the final geometry masked, and unmasked on the right.
+
+See also :ref:`masks-edge_length-example`.
 
 .. figure:: /images/nodes-is_wire_basic.png
    :align: center

@@ -28,7 +28,7 @@ Inputs
 
 |INTEGER_FIELD_SINGLE| Grow
 
-   Amount to grow the selection, 0 is no growth.
+   Amount to grow the selection.
 
 Outputs
 ========
@@ -39,7 +39,8 @@ Outputs
 
 |BOOLEAN_FIELD| Selection
 
-   The output selection, larger based on the *Grow* input value.
+   The output selection, larger than the input selection based on the
+   *Grow* input value.
 
 Examples
 =========

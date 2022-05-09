@@ -44,6 +44,7 @@ Outputs
 Examples
 =========
 
+.. index:: Extended Examples; Building a shape with masks
 .. _masks-edge_length-example:
 
 .. rubric:: Building a shape with masks
@@ -59,10 +60,9 @@ observed values in the spreadsheet.
 
    Step 1: Remove all edges less than 0.12m from a sphere.
 
-Removing the vertex at the top and bottom will leave us with a
-truncated sphere. There are several ways to do this but using the
-built-in **Edge Neighbors** node to determine absent faces seems like
-the easiest. [#]_
+The edge removal in this fashion will leave faceless edges and these
+*wires* can be identified and cleaned up with an
+:ref:`etk-masks-is_wire` node group.
 
 .. figure:: /images/nodes-edge_length_basic_b.png
    :align: center
@@ -91,10 +91,3 @@ upwards and the lower boundary downwards.
    :width: 800
 
    Step 4: Controlling the extrusion with standard geometry nodes.
-
-
------------
-
-.. rubric:: Footnotes
-
-.. [#] See also :ref:`etk-masks-is_wire`.
