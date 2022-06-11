@@ -23,6 +23,7 @@
    segment.rst
    spherical_spiral.rst
    spirograph.rst
+   suzanne.rst
    torus.rst
    uv_sphere.rst
    vertex.rst

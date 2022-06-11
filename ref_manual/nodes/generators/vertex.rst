@@ -29,11 +29,3 @@ Outputs
 
 Examples
 ========
-
-.. figure:: /images/nodes-vertex_basic.png
-   :align: center
-   :width: 800
-
-   Using a single **Vertex** as a cutter in a pair of
-   :ref:`etk-utilities-cross_section` nodes of a
-   default cube.

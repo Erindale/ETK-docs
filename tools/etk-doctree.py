@@ -26,6 +26,7 @@ def make_rst(top, node):
     base = title.replace(' ', '_').lower()
     rst_fname = base + '.rst'
     if os.path.exists(rst_fname):
+        print('{0} exists, skipping'.format(rst_fname))
         return ''
     with open(rst_fname, 'w') as rst:
         rst.write('.. index:: {0}; {1}\n'.format(top, title))

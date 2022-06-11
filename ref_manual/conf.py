@@ -16,7 +16,7 @@
 import datetime
 
 # -- Project information -----------------------------------------------------
-etk_version = '3.0'
+etk_version = '3.1.2'
 project = 'ETK %s Manual' % etk_version
 copyright = f': {datetime.date.today().year} by Erin Woodford'
 author = 'erin'

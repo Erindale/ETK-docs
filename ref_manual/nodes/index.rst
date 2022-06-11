@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    curves/index.rst
+   experimental/index.rst
    falloff/index.rst
    fields/index.rst
    generators/index.rst
