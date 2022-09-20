@@ -16,14 +16,17 @@ The ETK_Align Tilt to Vector group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|BOOLEAN_FIELD_SINGLE| Vector
+   Vector to which the tilt will be aligned.
+
+|FLOAT_FIELD_SINGLE| Offset
+   Offset, in degrees, added to the aligned tilt.
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Tilt
+
 
 Examples
 =========
