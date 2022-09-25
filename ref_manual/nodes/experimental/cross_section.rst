@@ -16,14 +16,29 @@ The ETK_Cross Section group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+
+
+|GEOMETRY| Cut Locations
+
+
+|VECTOR_FIELD_SINGLE| Cut Rotations
+
+
+|BOOLEAN_FIELD_SINGLE| Fill
+
+
+|GEOMETRY| Alternate Cutter
+
+
+|COLLECTION| Boolean based so often fails
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   Output geometry.
 
 Examples
 =========

@@ -16,14 +16,20 @@ The ETK_UV Lattice group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|VECTOR_FIELD_SINGLE| UVMap
+
+
+|OBJECT| Control Object
+
+
+|INTEGER| Smoothing Level
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|VECTOR_FIELD| Projected UV
+
 
 Examples
 =========

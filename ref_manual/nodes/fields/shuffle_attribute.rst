@@ -16,14 +16,25 @@ The ETK_Shuffle Attribute group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Geometry
+   Input geometry.
+
+
+|VECTOR_FIELD_SINGLE| Attribute
+
+
+|INTEGER_FIELD_SINGLE| Seed
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+
+|VECTOR_FIELD| Attribute
+
+
+|INTEGER_FIELD| Index
+
 
 Examples
 =========

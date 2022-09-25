@@ -16,14 +16,20 @@ The ETK_Mesh to SDF group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+
+
+|BOOLEAN_FIELD_SINGLE| Accurate
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD| SDF
+
+
+|FLOAT_FIELD| Inverted SDF
+
 
 Examples
 =========

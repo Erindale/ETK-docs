@@ -16,14 +16,38 @@ The ETK_Marching Squares group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|FLOAT| Size X
+
+
+|FLOAT| Sizy Y
+
+
+|INTEGER| Res X
+
+
+|INTEGER| Res Y
+
+
+|GEOMETRY| Cut Location
+
+
+|VECTOR_FIELD_SINGLE| Cut Rotation
+
+
+|FLOAT_FIELD_SINGLE| Field
+
+
+|FLOAT_FIELD_SINGLE| Threshold
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Mesh
+
+
+|GEOMETRY| Curve
+
 
 Examples
 =========

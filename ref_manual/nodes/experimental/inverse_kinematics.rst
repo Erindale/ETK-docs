@@ -16,14 +16,27 @@ The ETK_Inverse Kinematics group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Start
+
+
+|GEOMETRY| End
+
+
+|GEOMETRY| Pole
+
+
+|INTEGER| Segment Count
+
+
+|FLOAT_FIELD_SINGLE| Segment Length
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Geometry
+   Output geometry.
+
 
 Examples
 =========

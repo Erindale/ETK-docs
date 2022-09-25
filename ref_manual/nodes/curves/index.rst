@@ -10,6 +10,7 @@
    align_tilt_to_vector
    bevel_a_curve.rst
    curve_attributes.rst
+   curve_deform.rst
    curve_lerp.rst
    loft_curves.rst
    pipes.rst

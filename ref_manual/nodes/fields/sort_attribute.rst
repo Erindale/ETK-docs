@@ -16,14 +16,27 @@ The ETK_Sort Attribute group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+   Input mesh.
+
+
+|FLOAT_FIELD_SINGLE| Sort Key
+
+
+|INTEGER_FIELD_SINGLE| Group Index
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|FLOAT_FIELD| Sorted Attribute
+
+
+|FLOAT_FIELD| Group Min
+
+
+|FLOAT_FIELD| Group Max
+
 
 Examples
 =========

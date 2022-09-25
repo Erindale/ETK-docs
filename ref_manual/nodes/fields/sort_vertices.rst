@@ -16,14 +16,28 @@ The ETK_Sort Vertices group ...
 Inputs
 =======
 
-Input1
-   Description of Input1
+|GEOMETRY| Mesh
+   Input mesh.
+
+
+|FLOAT_FIELD_SINGLE| Sort Key
+
+
+|INTEGER_FIELD_SINGLE| Group Index
+
 
 Outputs
 ========
 
-Output1
-   Description of Output1
+|GEOMETRY| Sorted Mesh
+   Ouput mesh with sorted vertices.
+
+
+|FLOAT_FIELD| Group Min
+
+
+|FLOAT_FIELD| Group Max
+
 
 Examples
 =========

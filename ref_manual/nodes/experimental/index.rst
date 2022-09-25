@@ -13,4 +13,5 @@ Experimental
    marching_squares.rst
    marching_squares_beta.rst
    mesh_to_sdf.rst
+   remesh.rst
    uv_lattice.rst
