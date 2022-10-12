@@ -39,4 +39,19 @@ Examples
 
 .. rubric:: Simple Field replacement
 
-.. todo:: Add example for ETK_Sort Vertices
+.. figure:: /images/nodes-field_replace_2.png
+   :align: right
+
+   Field-based point creation.
+
+The **Field Replace** node can be useful when selection inputs aren't
+provided. This example manipulates the position at which points are
+created based on a simple deteriminant. There are several reasonable
+ways of accomplishing this particular task but it never hurts to have
+additional tools.
+
+.. figure:: /images/nodes-field_replace_gn.png
+   :align: center
+   :width: 800
+
+   Using **Field Replace** to set positions of points on creation.

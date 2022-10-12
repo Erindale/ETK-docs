@@ -38,15 +38,20 @@ Examples
 
 .. figure:: /images/curve-deform-comp.gif
    :align: right
-   :width: 400
+   :width: 360
 
 This example takes a simple vertical cylinder, with increased side
 segments, and deforms it along a ``Bezier Segment`` used as a control
 curve to the ``Curve Deform`` node. Six frames are animated using
-the ``Scene Time -> Frame`` as input to the ``Easing Sine`` falloff
-node to modify the curves handles along the X-axis. The final six
-frames of the animation are the first six images in reverse.
+the ``Scene Time -> Frame`` as input to
+the :ref:`etk-falloff-easing_sine` falloff node to modify the curves
+handles along the X-axis. The final six frames of the animation
+are the first six images in reverse.
 
 .. figure:: /images/nodes-curve_deform_gn.png
    :align: center
    :width: 800
+
+   The ``Curve Deform`` node used to reshape a cylinder controlled by
+   a curve that is in turn tweaked by the
+   :ref:`etk-falloff-easing_sine` node group.
