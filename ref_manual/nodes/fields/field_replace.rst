@@ -19,10 +19,10 @@ Inputs
 ======
 
 |FLOAT_FIELD_SINGLE| Field Original
-   This field value will be passed to output if the *Mask* is ``True``.
+   The default field value to be passed to output, if *Mask* is ``False``.
 
 |FLOAT_FIELD_SINGLE| Field New
-   This field value will be passed to output if the *Mask* is ``False``.
+   This field value will be passed to output if the *Mask* is ``True``.
 
 |BOOLEAN_FIELD_SINGLE| Mask
    The mask to determine if a replacement is made for this field.
