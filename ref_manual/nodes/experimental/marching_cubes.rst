@@ -82,7 +82,75 @@ Outputs
 Examples
 =========
 
-.. todo:: Add example for ETK_Marching Cubes
+.. rubric:: A simple sphere
+
+.. figure:: /images/nodes-marching_cubes_eg1.png
+   :align: right
+
+   An SDF sphere with its wireframes.
+
+The sphere is the canonical example of simple SDF. The function is the
+distance from a point which is then subtracted from the desired
+diameter.
+
+Because marching cubes can be resource intensive, the default is
+rather small. Note the changes from the default,
+
+* The bounds in our example has been increased to a
+  :math:`4\times{4}\times{4}` cube.
+
+* Threshold = 0.0
+
+* Sample Size = 0.1M
+
+* Voxel Size = 0.06M
+
+Recreating this example and playing with these values is very
+instructive.
+
+.. figure:: /images/nodes-marching_cubes_eg1_gn.png
+   :align: center
+   :width: 800
+
+   Constructing a sphere using **Marching Cubes**.
+
+.. rubric:: A cube
+
+.. figure:: /images/nodes-marching_cubes_eg2.png
+   :align: right
+
+Making a cube can be a little more involved. We use the ``Absolute``
+value of the ``Position`` vector, subtract to get the side length, then
+determine the final SDF value using the *Maximum* value on each axis.
+
+.. figure:: /images/nodes-marching_cubes_eg2_gn.png
+   :align: center
+   :width: 800
+
+   Constructing a cube with the **Marching Cubes** group node.
+
+
+.. rubric:: The coolness of marching cubes
+
+.. figure:: /images/nodes-marching_cubes_eg3.png
+   :align: right
+
+   Merging two objects.
+
+Once you have an object defined you can build other structures by
+combining their respective SDF outputs. Here the sphere's center has
+been offset and AND'ed with the cube using a ``Smooth Minimum`` math
+operation on the output of the cube and sphere. Tweaking the
+*Distance* in this node can have interesting effects.
+
+The cube SDF is omitted in the node tree since it is shown above.
+
+.. figure:: /images/nodes-marching_cubes_eg3_gn.png
+   :align: center
+   :width: 800
+
+   Using a ``Smooth Minimum`` operation to do a boolean union of two
+   SDF functions.
 
 
 ------------
